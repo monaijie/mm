@@ -1,0 +1,87 @@
+/***案例product***/
+.product {
+	margin: 15px 0;
+}
+
+.picList {
+	overflow: hidden;
+	margin: 0px auto;
+	position: relative;
+	width: 1200px!important;
+	margin-bottom:15px;
+	height: 520px!important;
+}
+
+.picList li {
+	display: inline;
+	float: left;
+	width: 25%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.picList li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.picList li img {
+	display: block;
+}
+
+.picList li p {
+	font-family: 'code_lightregular';
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	position: absolute;
+	left: 0;
+	line-height: 30px;
+	top: 40%;
+	z-index: 10;
+}
+
+.picList li .ch {
+	margin-top: 40px;
+	font-family: '微软雅黑';
+}
+
+.picList li .bg {
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.picList li.on,
+.picList li:hover {
+	z-index: 10;
+}
+.picList li:hover a p{
+	display: none;
+}
+.picList li.on p,
+.picList li:hover p {
+	z-index: 1;
+}
+
+.picList li.on .bg,
+.picList li:hover .bg {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 20;
+}

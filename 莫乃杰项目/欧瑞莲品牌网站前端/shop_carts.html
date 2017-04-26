@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/shop_carts.css" />
+	</head>
+	<body>
+		<!--tou-->
+		<div class="bg" >
+			<div class="container">
+				<div class="right text">
+					<ul>
+						<li><a href="javascript:;" id="login">[登录]</a></li>
+						<li><a href="javascript:;" id="register">[注册]</a></li>
+						<li><a href="user.html">会员中心 </a></li>
+						<li><a href="###">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/index/logo.png" title="欢迎来到xx电子商场" alt="图片无法加载" />
+				</a>
+			</div>
+			<div class="select">
+				<form>
+					<input type="text" />
+					<button>搜索</button>
+				</form>
+			</div>
+			<div class="buy_car">
+				<span><i></i><a href="shop_carts.html">我的购物车<span class="badge">5</span></a></span>				
+			</div>
+		</div>
+		
+		<!---nav-->
+		<div class="background">
+			<div class="container">
+				<div class="nva">
+					<div class="left all_pro">
+						<span>全部商品分类</span>
+						<ul class="all_classify">
+							<li>
+								<dl>
+									<dt>化妆品</dt>
+									<dd><a href="shop-list.html">精华</a></dd>
+									<dd><a href="shop-list.html">洁面</a></dd>
+									<dd><a href="shop-list.html">面霜</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>个人清理 </dt>
+									<dd><a href="shop-list.html">洗发水</a></dd>
+									<dd><a href="shop-list.html">洗甲水</a></dd>
+									<dd><a href="shop-list.html">护手霜</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>男士用品 </dt>
+									<dd><a href="shop-list.html">男士面膜</a></dd>
+									<dd><a href="shop-list.html">男生眼霜</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>母婴用品 </dt>
+									<dd><a href="shop-list.html">妈咪爽肤水</a></dd>
+									<dd><a href="shop-list.html">婴儿沐浴露</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>功效 </dt>
+									<dd><a href="shop-list.html">抗氧化</a></dd>
+									<dd><a href="shop-list.html">祛斑</a></dd>
+									<dd><a href="shop-list.html">保湿</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>品牌 </dt>
+									<dd><a href="shop-list.html">倩碧</a></dd>
+									<dd><a href="shop-list.html">香奈儿</a></dd>
+									<dd><a href="shop-list.html">迪奥</a></dd>
+								</dt>
+							</li>
+						</ul>
+					</div>
+					<div class="classify">
+						<ul>						
+							<li class="lack"><a href="index.html">首页</a></li>
+							<li><a href="##">最新信息</a></li>
+							<li><a href="shop-list.html">条样品伊日健</a></li>
+							<li><a href="shop-list.html">护肤</a></li>
+							<li><a href="shop-list.html">彩妆</a></li>
+							<li><a href="shop-list.html">护体</a></li>
+							<li><a href="shop-list.html">男士</a> </li>						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--header_end-->
+		
+		<!--中间内容-->
+		<div class="mg">
+			<p>位置：<a href="index.html">首页</a>-<a href="shop_carts.html">我的购物车</a></p>
+			<div class="back">
+				<div class="by_cat">
+					<span>我的购物车</span>
+					<span>填写核对订单信息</span>
+					<span>成功提交订单</span>
+				</div>
+				<div class="number">
+					<div class="mmo">
+						<label id="dx">
+							<input type="checkbox" name="1"  value="" checked="checked" />
+							<span>单选</span>
+						</label>
+						<label id="qx">
+							<input type="checkbox" name="1" value="" id="all-check"/>
+							<span>全选</span>
+						</label>
+					</div>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>商品信息</th>
+								<th>单价</th>
+								<th>数量</th>
+								<th>金额</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody class="tb">
+							
+						</tbody>
+					</table>
+				</div>				
+			</div>
+			<div class="buttom">
+				<p>商品总价：（不含运费）<span>￥<em id="alltital">1080.00</em></span></p>				
+				<button class="botton" id="bt">结算</button>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div class="foot_bg">
+			<div class="container">
+				<div class="guide">
+					<dl>
+						<dt>新手指南</dt>
+						<dd><a href="##">使用说明</a></dd>
+						<dd class="abouts"><a href="##">购物卡使用说明</a></dd>
+						<dd><a href="##">购物流程</a></dd>
+						<dd><a href="##">客户注册</a></dd>
+					</dl>
+				</div>
+				<div class="pay_tip">
+					<dl>
+						<dt>支付说明</dt>
+						<dd><a href="##">优惠卷使用说明</a></dd>
+						<dd><a href="##">常见支付问题</a></dd>
+						<dd><a href="##">支付方式</a></dd>
+						<dd><a href="##">欲存款支付</a></dd>
+					</dl>
+				</div>
+				<div class="dt_problem">
+					<dl>
+						<dt>配送问题</dt>
+						<dd><a href="##">常见配送问题</a></dd>
+						<dd><a href="##">配送范围</a></dd>
+						<dd><a href="##">运送方式和运费问题</a></dd>
+						<dd><a href="##">商品运送与签收</a></dd>
+					</dl>
+				</div>
+				<div class="service">
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="##">退款说明</a></dd>
+						<dd><a href="##">办理退换货</a></dd>
+						<dd><a href="##">退换货说明</a></dd>
+						<dd><a href="##">放心说明</a></dd>
+					</dl>
+				</div>
+				<div class="about">
+					<dl>
+						<dt>关于我们</dt>
+						<dd><a href="##">了解我们</a></dd>
+						<dd><a href="##">联系我们</a></dd>
+						<dd><a href="##">诚聘精英</a></dd>
+					</dl>
+				</div>
+				<p>服务邮箱 &nbsp;&nbsp;&nbsp;xxx-xxx-xxx</p>
+			</div>			
+		</div>
+		
+		<div class="foot_b">
+			<div class="container">
+				<div class="partner">
+					<ul>
+						<li><a href="##"><img src="img/index/panter/pic01.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic02.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic03.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic04.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic05.png" /> </a></li>	
+						<li><a href="##"><img src="img/index/panter/pic06.png" /> </a></li>	
+					</ul>			
+				</div>
+				<div class="texts">
+					<p>COPYRIGHT © 2010-2015 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。 客服热线：400-123-8888 </p>
+					<p>京公网安备 11010102001226 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/shop_carts.js" ></script>
+		<script type="text/javascript" src="js/car_num.js" ></script>
+	</body>
+</html>

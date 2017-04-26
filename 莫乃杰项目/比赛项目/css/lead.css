@@ -1,0 +1,4 @@
+
+body,html{background: #282828;height: 100%;width: 100%;}
+.index-des{height: 100%;position: relative;}
+.index-des img{display: block;width: 0;height: 0;position: absolute;left: 50%;top: 50%;margin:-70px 0 0 -300px;}

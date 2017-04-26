@@ -1,0 +1,161 @@
+.pay{background-color: #99dde9;width: 100%;overflow: hidden;}
+.pay .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.pay .top span{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;}
+
+.pay_body{background: url(../img/pay/backgrund.jpg) no-repeat center;width: 100%;overflow: hidden;padding-bottom: 130px;}
+.border_bottom .tips span{font-family: "微软雅黑";font-size: 16px;color: #242424;}
+.buys{margin-top: 60px;width: 90%;border: 1px solid #bee1e3;padding-top: 20px; }
+.buys .border_bottom{background: url(../img/pay/xian.png) no-repeat bottom;padding-bottom: 30px;}
+.buys .tip{border: 3px solid #00aac8;width: 78%;margin: 23px auto 0 116px;padding: 5px 8px 2px 8px;}
+.buys .tip p{font-family: "微软雅黑";font-size: 16px;color:#292929;margin: 0;line-height: 25px;}
+.buys .tip span{font-family: "微软雅黑";font-size: 16px;color:#292929;}
+.buys .tip p:first-child+p{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip span a{font-family: "微软雅黑";font-size: 12px;color:#292929;padding-right: 20px;}
+
+.sure{padding-left: 13%;margin-bottom: 23px;}
+.buys .sure{margin-top: 44px;}
+.buys .sure h4{font-family: "微软雅黑";font-size: 16px;color:#292929;}
+.png .col-lg-6{width: 52%;}
+.png  .btn {padding: 6px 25px;font-size:16px;border: 1px solid transparent;border-radius: 0;}
+.png .btn-default{color: #FFFFFF;background-color: #646464;}
+.png .form-control{height: 36px;font-size: 16px;border: 1px solid #1b1b1b;border-radius: 5px;}
+
+.pay_bank{width: 40%;margin-left: 12%;margin-top: 4%;}
+.pay_bank a{font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;background-color: #32b9d1;display:block ;padding: 5px 10px;text-align: center;}
+.pay_bank .col-lg-4{padding-right: 0;}
+
+.bank{margin: 4% auto 0;width:80%}
+.bank li{margin-bottom: 5%;}
+.bank li img{border:2px solid transparent;cursor: pointer;}
+.bank ul li img.borders{border:2px solid #32b9d1;}
+.more_bank a{font-family: "微软雅黑";font-size: 16px;color: #ff0000;border: 2px solid #ff0000;padding: 11px 0px;display: block; text-align: center;background-color: #FFFFFF;width: 78%;}
+.pay_now{margin-left: 3%;margin-bottom: 5%}
+.pay_now a{font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;border: 2px solid #000000;padding: 11px 0px;display: block; text-align: center;width: 65%;background-color: #000000;display: block;}
+
+
+.successful {display:none;top: 72%;position: absolute;left: 53%;width: 250px;height: 250px;margin-left: -125.5px;z-index: 100;border-radius:30px ;background: rgba(0,0,0,0.6);text-align: center;}
+.successful a{display: block;margin-top: 12%;}
+.successful span{font-family: "微软雅黑";font-size: 20px;color: #00ff0c;line-height: 36px;}
+.successful img{margin:0 auto;}
+
+.failure {display:none;top: 72%;position: absolute;left: 53%;width: 250px;height: 250px;margin-left: -125.5px;z-index: 100;border-radius:30px ;background: rgba(0,0,0,0.6);text-align: center;}
+.failure a{display: block;margin-top: 12%;}
+.failure span{font-family: "微软雅黑";font-size: 20px;color: #ff0000;line-height: 36px;}
+.failure img{margin:0 auto;}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {	
+.pay{background-color: #99dde9;width: 100%;overflow: hidden;}
+.pay .top p{font-family: "微软雅黑";font-size: 18px;color: #262525;}
+.pay .top span{font-family: "微软雅黑";font-size: 14px;color: #262525;padding-left: 10px;}
+
+.pay_body{background: url(../img/pay/backgrund.jpg) no-repeat center;width: 100%;overflow: hidden;padding-bottom: 100px;}
+.border_bottom .tips a{font-family: "微软雅黑";font-size: 16px;color: #242424;}
+.buys{margin-top: 60px;width: 70%;border: 1px solid #bee1e3;padding-top: 20px; }
+.buys .border_bottom{background: url(../img/pay/xian.png) no-repeat bottom;padding-bottom: 30px;background-size:60% ;}
+.buys .tip{border: 3px solid #00aac8;width: 88%;margin: 23px auto 0 50px;padding: 5px 8px 2px 8px;}
+.buys .tip p{font-family: "微软雅黑";font-size: 13px;color:#292929;margin: 0;line-height: 25px;}
+.buys .tip span{font-family: "微软雅黑";font-size: 13px;color:#292929;}
+.buys .tip p:first-child+p{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip span a{font-family: "微软雅黑";font-size: 12px;color:#292929;padding-right: 20px;}
+
+.sure{padding-left: 10%;margin-bottom: 23px;}
+.buys .sure{margin-top: 35px;}
+.buys .sure h4{font-family: "微软雅黑";font-size: 14px;color:#292929;}
+.png .col-lg-6{width: 70%;}
+.png  .btn {padding: 3px 25px;font-size:16px;border: 1px solid transparent;border-radius: 0;}
+.png .btn-default{color: #FFFFFF;background-color: #646464;}
+.png .form-control{height: 30px;font-size: 16px;border: 1px solid #1b1b1b;border-radius: 5px;}
+
+.pay_bank{width: 65%;margin-left: 7%;margin-top: 4%;}
+.pay_bank a{font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;background-color: #32b9d1;display:block ;padding: 5px 10px;text-align: center;}
+.pay_bank .col-lg-4{padding-right: 0;}
+
+.bank{margin: 4% auto 0;width:80%}
+.back ul li a{display: block;}
+.bank li{margin-bottom: 5%;padding: 0 15px;}
+.more_bank a{width: 95%; font-family: "微软雅黑";font-size: 16px;color: #ff0000;border: 2px solid #ff0000;padding: 11px 0px;display: block; text-align: center;background-color: #FFFFFF;}
+.pay_now{margin-left: 3%;}
+.pay_now a{font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;border: 2px solid #000000;padding: 11px 0px;display: block; text-align: center;width: 65%;background-color: #000000;}
+.more_bank a{width: 100%; font-family: "微软雅黑";font-size: 16px;color: #ff0000;border: 2px solid #ff0000;padding: 11px 0px;display: block; text-align: center;background-color: #FFFFFF;}
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+.more_bank a{width: 90%; font-family: "微软雅黑";font-size: 16px;color: #ff0000;border: 2px solid #ff0000;padding: 11px 0px;display: block; text-align: center;background-color: #FFFFFF;}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.pay{background-color: #99dde9;width: 100%;overflow: hidden;}
+.pay .top p{font-family: "微软雅黑";font-size: 16px;color: #262525;}
+.pay .top span{font-family: "微软雅黑";font-size: 14px;color: #262525;padding-left: 10px;}
+
+.pay_body{background: url(../img/pay/backgrund.jpg) no-repeat center;width: 100%;overflow: hidden;padding-bottom: 50px;}
+.border_bottom .tips a{font-family: "微软雅黑";font-size: 12px;color: #242424;}
+.buys{margin-top: 60px;width: 95%;border: 1px solid #bee1e3;padding-top: 20px; }
+.buys .border_bottom{background: url(../img/pay/xian.png) no-repeat bottom;padding-bottom: 30px;background-size:60% ;}
+
+.buys .tip{border: 3px solid #00aac8;width:100%;margin: 23px auto 0 auto;padding: 5px 8px 2px 8px;}
+.buys .tip p{font-family: "微软雅黑";font-size: 12px;color:#292929;margin: 0;line-height: 25px;}
+.buys .tip span{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip p:first-child+p{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip span a{font-family: "微软雅黑";font-size: 12px;color:#292929;padding-right: 20px;}
+
+.sure{padding-left: 10%;margin-bottom: 23px;}
+.buys .sure{margin-top: 35px;}
+.buys .sure h4{font-family: "微软雅黑";font-size: 14px;color:#292929;}
+.png .col-lg-6{width: 70%;}
+.png  .btn {padding: 3px 25px;font-size:16px;border: 1px solid transparent;border-radius: 0;}
+.png .btn-default{color: #FFFFFF;background-color: #646464;}
+.png .form-control{height: 30px;font-size: 16px;border: 1px solid #1b1b1b;border-radius: 5px;}
+
+.pay_bank{width: 65%;margin-left: 7%;margin-top: 4%;}
+.pay_bank a{font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;background-color: #32b9d1;display:block ;padding: 5px 10px;text-align: center;}
+.pay_bank .col-lg-4{padding-right: 0;margin-bottom: 10px;}
+
+.bank{margin: 4% auto 0;width:80%}
+.bank li{margin-bottom: 5%;}
+.bank .row{padding-left: 0;}
+.more_bank a{font-family: "微软雅黑";font-size: 12px;color: #ff0000;border: 2px solid #ff0000;padding: 3%;display: block; text-align: center;width: 90%;background-color: #FFFFFF;}
+.pay_now{margin-left: 3%;}
+.pay_now a{font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;border: 2px solid #000000;padding: 4px 0px;display: block; text-align: center;width: 65%;background-color: #000000;}
+			
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

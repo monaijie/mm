@@ -1,0 +1,130 @@
+x/**************顶部************************/
+.header{height: 87px;background-color: #f8f8f8;}
+.header img{width:182px;float:left;display: block;margin:0 auto ;}
+.header h3{font-family: "微软雅黑";font-size: 13px;color: #0246cf;display: block;padding-top:30px;}
+.header p{font-family: "微软雅黑";font-size: 13px;color: #fdb542;display: block;padding-top:10px;}
+/**************banner图************************/
+.index_banner{max-width: 100%;clear: both;overflow: hidden;}
+.index_banner .banner ul li{text-align: center;float: left;}
+.index_banner .banner  ul li img{width: 100%;display: block;margin: 0 auto}
+
+/**************导航菜单************************/
+.nav{background-color: #ecebeb;padding: 20px 10px;overflow: hidden;clear: both;}
+.nav li{width: 25%;float: left;padding: 0 5px;box-sizing: border-box;}
+.nav li a{font-family: "微软雅黑";font-size: 18px;text-align: center;color: #525252;}
+.nav li a img {max-width: 100%;margin: 0 auto;}
+
+/************************关于我们*************************************/
+.about_us .about_title{border-bottom: 2px solid #0246cf;position: relative;margin-top: 25px;clear: both;}
+.about_us .about_title h3{font-family: "微软雅黑";color: #333;font-size: 22px;padding-left: 10px;font-weight: normal;}
+.about_us .about_title span{font-family: arial;color: #fcd641;font-size:18px;}
+.about_us .about_title i{float: right;position:absolute;right: 20px;top:5px;display: block;font-style: normal;}
+.about_us .text{font-family: "微软雅黑";font-size: 17px;color: #5a5a5a;line-height: 21px;text-align: center;padding: 0 10px;line-height: 32px;}
+.about_us .text img{max-width: 90%;margin: 12px auto 5px auto;display:block;}
+
+/************************产品中心*************************************/
+.product{background-color: #f3f3f3;overflow: hidden;margin-top: 30px;position: relative;}
+.product .product_title{border-bottom: 2px solid #0246cf;position: relative;margin-top: 12px;clear: both;}
+.product .product_title h3{font-weight: normal;font-family: "微软雅黑";color: #333;font-size: 22px;padding-left: 10px;}
+.product .product_title span{font-family: arial;color: #fcd641;font-size:18px;}
+.product .product_title i{float: right;position:absolute;right: 20px;top:5px;display: block;font-style: normal;}
+
+.product_list{width: 100%;overflow: hidden;}
+.product .product_list li{float: left;}
+.product_list dd{width:50%;float: left;padding:10px;box-sizing: border-box;font-family: "微软雅黑";position: relative}
+.product_list dd a{border: 2px solid #003499;display: block;text-align: center;}
+.product_list dd img{width: 100%;margin: 0 auto;display: block;}
+.product_list .no a{font-size: 18px;border: none;padding: 25px 0 3px 0;color: #333333;}
+.product_list .active  a {border: 2px solid #ff9900;}
+.product_list .active .no a {color: #ff9900;border:none;}
+/************************产品中心轮播*************************************/
+.product .product_bd{margin: 0 auto;text-align: center;height: 45px;clear: both;}
+.product .product_bd ul{display: inline-block;}
+.product .product_bd li{bottom: 15px;margin: 10px 10px 10px 10px;background: url(../img/m_index-img/TCLhtml.png) no-repeat ;
+						float: left;width: 25px;height: 25px;box-sizing: border-box;background-size: 100%;}
+					
+.product .product_bd .active{background: url(../img/m_index-img/lun_bd.png) no-repeat; background-size: 100%;}
+
+
+/***********************新闻中心**************************************/
+.news{clear: both;padding-top: 1px;}
+.news .news_title{border-bottom: 2px solid #0246cf;position: relative;margin-top: 25px;clear: both;}
+.news .news_title h3{font-weight: normal;font-family: "微软雅黑";color: #333;font-size: 22px;padding-left: 10px;}
+.news .news_title span{font-family: arial;color: #fcd641;font-size:18px;}
+.news .news_title i{float: right;position:absolute;right: 20px;top:5px;display: block;font-style: normal;}
+
+.news .text{margin-top: 20px;clear: both;padding:0 10px;}
+.news .text li{margin:30px 0 30px 0;clear: both;border-bottom: 1px solid #cccccc;overflow: hidden;padding-bottom: 2px;}
+.news .text p{background: url(../img/m_index-img/dian.png) no-repeat center left;
+                    padding-left:25px;background-size: 20px;display: inline-block;float: left;line-height: 20px;}
+.news .text p a{font-size: 18px;color: #333333;}
+.news .text span{font-size: 14px;color: #666666;float: right;padding-right: 10px;}
+.news .text .active a{color: #0040ff;}
+
+
+/***********************联系我们**************************************/
+.contact{clear: both;overflow: hidden;}
+.contact .contact_title{border-bottom: 2px solid #0246cf;position: relative;margin-top: 25px;clear: both;}
+.contact .contact_title h3{font-weight: normal;font-family: "微软雅黑";color: #333;font-size: 22px;padding-left: 10px;}
+.contact .contact_title span{font-family: arial;color: #fcd641;font-size:18px;}
+.contact .contact_title i{float: right;position:absolute;right: 20px;top:5px;display: block;font-style: normal;}
+.contact .phone{padding-top: 8px;box-sizing: border-box;}
+.contact .phone img{display: block;float: left;margin-left: 5px;width: 34%;box-sizing: border-box;padding: 1px;}
+.contact .text{float: right;width: 63%;box-sizing: border-box;padding-left: 8px;display: block;padding-top:10px ;}
+.contact .text p{font-size: 14px;color: #666666;display: block;padding:0px 0 8px 0 ;}
+.contact .text b{color:#333333;}
+
+
+@media only screen  and (max-width: 380px) {
+	
+	/********************头部***********************/
+	.header h3{font-family: "微软雅黑";font-size: 10px;color: #0246cf;display: block;padding-top:30px;}
+	.header p{font-family: "微软雅黑";font-size: 8px;color: #fdb542;display: block;padding-top:10px;}
+    
+	/********************导航部分***********************************/
+	.nav li a{font-family: "宋体";font-size: 14px;text-align: center;color: #525252;}
+	/********************关于我们部分***********************************/
+    .about_us .text{font-family: "微软雅黑";font-size: 14px;color: #5a5a5a;line-height: 21px;text-align: center;padding: 0 8pxs;line-height: 32px;}
+ 	.about_us .about_title h3{font-family: "微软雅黑";color: #333;font-size: 20px;padding-left: 10px;}
+	.about_us .about_title span{font-family: arial;color: #fcd641;font-size:16px;}
+ 		
+ 	/***********************新闻中心*********************************/
+	
+	.news{clear: both;padding-top: 1px;}
+	.news .news_title h3{font-weight: normal;ffont-family: "微软雅黑";color: #333;font-size: 20px;padding-left: 10px;}
+	.news .news_title span{font-family: arial;color: #fcd641;font-size:16px;}
+
+    .news .text p{background: url(../img/m_index-img/dian.png) no-repeat center left;
+                    padding-left:20px;background-size: 15px;display: inline-block;float: left;line-height: 20px;}                   
+    .news .text p a{font-size: 14px;color: #333333;}                     
+	.news .text span{font-size: 12px;color: #666666;float: right;padding-right: 2px;}	
+    .news .text{margin-top: 10px;clear: both;padding:0 10px;}
+	
+	/***********************产品中心*********************************/
+	.product .product_title h3{font-weight: normal;font-family: "微软雅黑";color: #333;font-size: 20px;padding-left: 10px;}
+	.product .product_title span{font-family: arial;color: #fcd641;font-size:15px;}
+	.product_list .name a{font-size: 16px;border: none;line-height: 25px;}
+	/***********************联系我们*********************************/	
+	.contact .text{float: right;width: 63%;box-sizing: border-box;padding-left: 2px;display: block;padding-top:5px ;}
+	.contact .text p{font-size: 11px;color: #666666;display: block;padding:0px 0 8px 0 ;}
+	.contact .text span{font-size: 14px;color:#333333;}
+    .contact .contact_title h3{font-weight: normal;font-family: "微软雅黑";color: #333;font-size: 20px;padding-left: 10px;}
+	.contact .contact_title span{font-family: arial;color: #fcd641;font-size:16px;}  
+    .footer p{font-family: "微软雅黑";font-size: 12px;line-height: 25px;text-align: center;}
+    
+   .product .product_bd li{bottom: 15px;margin:10px 5px;background: url(../img/m_index-img/TCLhtml.png) no-repeat ;
+						float: left;width: 25px;height: 25px;box-sizing: border-box;background-size: 80%;}
+	.product .product_bd .active{background: url(../img/m_index-img/lun_bd.png) no-repeat; background-size: 80%;}
+	
+}
+
+
+
+
+
+
+ 
+
+
+
+

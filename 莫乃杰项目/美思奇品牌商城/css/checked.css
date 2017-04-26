@@ -1,0 +1,4 @@
+
+input[type=checkbox]{visibility: hidden;}
+label{background: url(../img/checkbox/check.png) no-repeat left center;}
+label.on{background: url(../img/checkbox/checked.png) no-repeat left center;}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/********************banner图部分*********************************/
+.contact_banner{width:100%;height:300px;overflow:hidden;position:relative;z-index:1;}
+.contact_banner .banner{width:100%;height:300px;overflow:hidden;}
+.contact_banner .banner ul{width:100%;position:relative;overflow:hidden;height:300px;}
+.contact_banner .banner ul a{height:300px;width:1920px;margin-left:-960px;position:absolute;left:50%;}
+.contact_banner .banner img{display:block;height:300px;}
+/*****************中间部分***************************************/
+.content .mg{width:1200px;margin:0 auto;}
+/*****************中间左边导航顶部部分***************************************/
+.content .mg .left{float:left;margin-top:60px;margin-left:10px;}
+.content .mg .left .left_top{width:205px;height:218px;background:url(../images/basa.img/left_top.png) no-repeat;display:block;margin-bottom:30px;}
+.content .mg .left .left_top h3{letter-spacing:4px;font-size:22px;font-family:"微软雅黑";text-align:center;padding-top:15px;color:#FFF;margin-bottom:10px;}
+.content .mg .left .left_top li{width:210px;background:url(../images/basa.img/backroun_top2.png) no-repeat center;margin-left: 4px;text-align:center;}
+.content .mg .left .left_top li a{font-size:16px;font-family:"微软雅黑";line-height:46px;margin-left: -25px;color:#333333;display:block;*display:block;}
+.content .mg .left .left_top li:hover a{color:#0033cc;}
+.content .mg .left .left_top .active{background:url(../images/basa.img/backgroun_top1.png) no-repeat center;}
+.content .mg .left .left_top .active a{color:#0033cc;}
+.content .mg .left .left_top li:hover{background:url(../images/basa.img/backgroun_top1.png) no-repeat center;}
+/*****************中间左边导航底部部分***************************************/
+.content .mg .left .left_bottom{width:205px;height:218px;background:url(../images/basa.img/leeft_bottom.png) no-repeat;display:block;margin-bottom:30px;}
+.content .mg .left .left_bottom h3{letter-spacing:4px;font-size:22px;font-family:"微软雅黑";text-align:center;padding-top:15px;color:#FFF;margin-bottom:10px;}
+.content .mg .left .left_bottom li{background:url(../images/basa.img/backgroun_bottom2.png) no-repeat center;margin-left: -13px;font-size:14px;font-family:'宋体';line-height:46px;padding-left:25px;color:#333333;overflow:hidden;}
+/*.content .mg .left .left_bottom li:hover{background:url(../images/basa.img/backgroun_bottom1.png) no-repeat center;}*/
+.content .mg .left .left_bottom li:hover{color:#0033cc;}
+/*****************中间右边顶部部分***************************************/
+.content .mg .right{float:right;width:955px;margin:73px 0 86px 0;}
+.content .mg .right .right_title{height:28px;border-bottom:1px solid #cccccc;margin-left:35px;}
+.content .mg .right .right_title h3{padding:0 5px;letter-spacing:4px;color:#0244c7;font-size:20px;border-bottom:4px solid #0033cc;font-family:'微软雅黑';float:left;font-weight:bold;}
+.content .mg .right .right_title p{color:#333333;font-size:14px;font-family:"微软雅黑";float:right;line-height:35px;}
+.content .mg .right .right_title p a{color:#333333;font-size:14px;font-family:"微软雅黑";}
+.content .mg .right .right_title .active{color:#0033cc;}
+/*****引入百度地图******/
+.content .mg .right .middle{margin:28px 15px 0 auto;display:block;width:870px;height:350px;border:1px solid #999;}
+/*****************中间右边中间部部分***************************************/
+.right .message{float:left;width:340px;margin-top:55px;overflow:hidden;background:#f0f0f0;margin-left:66px;height:493px;}
+.right .message .title{margin:24px 0 0 25px;}
+.right .message .title img{width:35px;height:35px;display:block;float:left;margin-top:-3px;padding-right:7px;}
+.right .message .title h3{font-family:"微软雅黑";font-size:18px;color:#003398;line-height:25px;border-bottom:4px solid #0033cc;padding-right:25px;display:inline-block;font-weight:bold;}
+.right .message .title span{font-weight:normal;font-family:"微软雅黑";font-size:18px;}
+
+.right .message .text{clear:both;margin:30px 0 0 36px;}
+.right .message .text .img img{width:35px;height:40px;float:left;display:block;}
+.right .message .text img{display:block;float:left;width:19px;height:21px;padding-right:8px;}
+.right .message .text h4{font-family:"微软雅黑";font-size:18px;color:#003398;border-bottom:4px solid #003398;padding-top:34px;margin-bottom:30px;}
+.right .message .text p{padding-left:25px;font-family:'宋体';font-size:14px;margin-bottom:10px;line-height:27px;color:#333333;}
+/*****************中间右边内容部分***************************************/
+.right .msg{float:right;width:495px;margin-top:55px;overflow:hidden;background:#f0f0f0;margin-right:10px;height:493px;}
+.right .msg .title{margin:24px 0 0 25px;}
+.right .msg .title img{width:35px;height:35px;display:block;float:left;margin-top:-3px;padding-right:7px;}
+.right .msg .title h1{font-family:"微软雅黑";font-size:18px;color:#003398;line-height:25px;border-bottom:4px solid #0033cc;padding-right:25px;display:inline-block;font-weight:bold;}
+.right .msg .title span{font-weight:normal;font-family:"微软雅黑";font-size:18px;}
+/*****************中间右边表单部分***************************************/
+.right .msg .form{clear:both;margin:26px 0 0 36px;}
+.right .msg .form label{font-family:"微软雅黑";font-size:16px;color:#003398;font-style:normal;line-height:44px;}
+.right .msg .form input{width:350px;height:35px;margin-top:10px;outline:none;border:1px solid #ccc;padding:0 5px;line-height:35px;}
+.right .msg .form textarea{width:350px;height:114px;margin-top:-33px;margin-left:70px;outline:none;border:1px solid #ccc;padding:0 5px;resize:none;}
+.right .msg .form .verify{margin-top:20px;margin-right:-90px;}
+.right .msg .form .verify em{font-family:"微软雅黑";font-size:16px;color:#003398;font-style:normal;line-height:44px; }
+.right .msg .form .verify img{width:118px;height:35px;margin-right:90px;display:block;margin:-38px 0 0 90px;}
+.right .msg .form .verify .input{width:110px;height:35px;clear:both;float:right;margin:-34px 116px 0 0;}
+.right .msg .form .verify span{font-family:"微软雅黑";font-size:16px;color:#003398;text-decoration:underline;margin-left:94px;display:block;float:left;}
+.right .msg .form .verify .sure{letter-spacing:3px;color:#10409e;font-family:"微软雅黑";font-size:16px;width:122px;height:35px;background-color:#ffcc00;display:block;outline:none;border:1px solid #ccc;margin:-5px 116px 0 0;float: right;*margin:-5px 23px 0 0; cursor:pointer;*border:none;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 25px;padding-right: 30px;}
+.mg{border: 1px solid #eeeeee;margin-top: 15px;}
+.mg > p{margin-top: 5px;margin-left: 60px;font-family: "黑体";font-size: 14px;color: #201f1f;}
+.mg > p a{font-family: "黑体";font-size: 14px;color: #201f1f;}
+.mg > p a:last-child{color: red;}
+
+.orders{width: 872px;margin-right: auto;margin-left: auto;margin-top: 60px;position: relative;}
+.orders > span{display: block; width: 100%;text-align: center;font-family: "黑体";font-size: 18px;color: #020101;}
+.orders .sure{width: 872px;height: 227px;border: 2px solid #959595;}
+.orders .sure >p:first-child{margin-top: 40px;margin-left: -135px; text-align: center;font-family: "黑体";font-size: 18px;color: #020101;}
+.orders .sure >p:nth-child(2){margin-top: 35px;margin-left: 210px; font-family: "黑体";font-size: 18px;color: #020101;}
+
+.button{position: absolute;bottom: 8px;right: 190px;}
+.button button{width: 70px;height: 35px;border: 0;background-color: #959595;font-family: "黑体";font-size: 18px;color: #f9040f;float: left;}
+.button a{text-align: center;line-height: 35px; width: 70px;height: 35px;border: 0;background-color: #959595;font-family: "黑体";font-size: 18px;color: #13161b;display: inline-block;margin-left: 50px;}
+
+.number{width: 872px;margin-right: auto;margin-left: auto;margin-top: 25px;}
+.number p{width: 100%;text-align: center;font-family: "黑体";font-size: 18px;color: #040203;margin-bottom: -5px;}
+.number .por{width: 872px;height: 280px;border: 2px solid #959595;}
+.number .por .table thead tr th:nth-child(1){width: 300px;padding-left: 100px;}
+.number .por .table thead tr th:nth-child(3){width: 220px;}
+.number .por .table thead tr th{border: 0;font-family: "黑体";font-size: 18px;color: #040304;font-weight: normal;}
+
+.number .por .table tbody tr td:nth-child(1){width: 300px;padding-left: 85px;}
+.number .por .table tbody tr td{line-height: 179px;border: 0;font-family: "黑体";font-size: 18px;color: #040304;padding-top: 30px;}
+.number .por .table tbody tr td:last-child a{font-family: "黑体";font-size: 18px;color: #fa0309;}
+
+.invoice {width: 872px;margin-right: auto;margin-left: auto;margin-top: 20px;margin-bottom: 38px;}
+.invoice p{width: 100%;text-align: center;font-family: "黑体";font-size: 18px;color: #050101;background: url(../img/pay/xian.png) no-repeat center bottom;}
+.invoice .information{margin-top: 25px;margin-left: 170px;}
+.invoice .information label{margin-right: 30px;}
+.invoice .information label:nth-child(2){margin-right: 65px;}
+.invoice .information label:nth-child(1)  span{padding-right: 30px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information label:nth-child(2)  span{padding-right: 30px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information label:nth-child(3)  span{padding-right: 30px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information label:nth-child(4)  span{padding-right: 10px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information .playle label:nth-child(1){margin-right: 30px;margin-top: 15px;}
+.invoice .information .playle label:nth-child(1)  span{margin-left: -11px; padding-right: 0px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information .playle label.playlg{margin-left: -30px;margin-top: 10px;}
+.invoice .information .playle label.playlg  span{padding-right: 0px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information .playle label.suer{margin-left: -12px;margin-top: 10px;}
+.invoice .information .playle label.suer span{padding-right: 20px; display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information label span{display: inline-block; font-weight: normal; font-family: "黑体";font-size: 18px;color: #010308;}
+.invoice .information .playle{position: relative;}
+.invoice .information .playle label:nth-child(1) em{padding-right: 25px;font-weight: normal; text-align: center;line-height: 28px; font-family: "黑体";font-size: 18px;color: #010308;font-style: normal;width: 177px;height: 27px;display: inline-block;background: url(../img/comment/bgss.png) no-repeat center;}
+.invoice .information .playle label:nth-child(1) ul{overflow: hidden; position: absolute;top: 48px;left: 85px;display: none;}
+.invoice .information .playle label:nth-child(1) ul li{font-weight: normal; line-height: 28px; font-family: "黑体";font-size: 18px;color: #010308;width: 177px;height: 27px;cursor: pointer;text-align: center;background: red;}
+.invoice .information .playle label:nth-child(1) ul li:hover{color: #FFFFFF;}
+
+.invoice .information .playle label.playlg em{padding-right: 25px; font-weight: normal; text-align: center;line-height: 28px; font-family: "黑体";font-size: 18px;color: #010308;font-style: normal;width: 177px;height: 27px;display: inline-block;background: url(../img/comment/bgss.png) no-repeat center;}
+.invoice .information .playle label.playlg ul{overflow: hidden; position: absolute;top: 100px;left: 83px;display: none;}
+.invoice .information .playle label.playlg ul li{font-weight: normal; line-height: 28px; font-family: "黑体";font-size: 18px;color: #010308;width: 177px;height: 27px;cursor: pointer;text-align: center;background: red;}
+.invoice .information .playle label.playlg ul li:hover{color: #FFFFFF;}
+
+.invoice .information label:nth-child(4) input{width: 175px;height: 27px;border: 1px solid #000000;outline: none;padding: 0 8px;}
+.playle textarea{margin-left: 95px;margin-top: -23px;width: 390px;height: 102px;border: 1px solid #000000;resize: none;outline: none;padding: 0 8px;}
+.playle button{margin-left: 220px; width: 112px;height: 33px;line-height: 33px; border: 1px solid #000000;background-color: red;font-family: "黑体";font-size: 18px;color: #f6f7fa;}
+
+input[type=checkbox]{visibility: hidden;}
+.information label{background: url(../img/order/kung.png) no-repeat right center;}
+.information label.checked{background: url(../img/order/gou.png) no-repeat right center;}
+.information label:nth-child()4{background: none;}
+
+.playle label{background: none;}
+
+
+
+
+

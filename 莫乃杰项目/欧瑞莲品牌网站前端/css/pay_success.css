@@ -1,0 +1,40 @@
+.nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 25px;padding-right: 30px;} 
+.order{width: 100%; background-color: #eeeeee;margin-top: 15px;padding-bottom:5px;}
+.order h4{padding-top: 8px;font-family: "黑体";font-size:22px ;color: #060606;margin-left: 50px;}
+.order > p{margin-left: 50px;margin-top: 15px;margin-bottom: 30px;}
+.order > p a{font-family: "黑体";font-size:14px ;color: #4b4949;}
+.order > p a:last-child{font-family: "黑体";font-size:14px ;color: red ;}
+
+.order .faliuer{text-align: center; overflow: hidden;margin-left: auto;margin-right: auto;width: 872px;height: 100px;background-color: #FFFFFF;}
+.order .faliuer span{padding-left: 40px;margin-top: 5px; background: url(../img/pay/success.png) no-repeat center left; display: inline-block;font-family: "黑体";font-size:14px ;color: #343333 ;padding-top: 15px;padding-left:45px ;padding-bottom: 15px;}
+.order .faliuer p{margin-top: -8px;margin-left: 40px;font-family: "黑体";font-size:18px ;color: #fd0303;} 
+
+.order .phone{text-align: center;width: 100%;height: 72px;background-color: #f3c4d2;margin-top: 18px;}
+.order .phone p{line-height: 72px;margin-right: 90px;font-family:"黑体" ;font-size: 14px;color: #343333;}
+.order .phone  a{margin-left: 20px;background-color: #fa88aa;padding: 8px 10px; border-radius: 8px;font-family:"黑体" ;font-size: 14px;color: #FFFFFF;}
+
+.order .adder{width: 826px;height: 48px;background-color: #FFFFFF;margin-left: 20px;margin-top: 5px;}
+.order .adder p{margin-bottom: 0; padding-left: 7px; line-height: 48px;float: left;font-family: "黑体";font-size:14px ;color: #444242 ;}
+.order .adder span{padding-left: 73px; line-height: 48px;font-family: "黑体";font-size:14px ;color: #444242 ;}
+
+.order .play{width: 826px;height: 48px;background-color: #FFFFFF;margin-left: 20px;margin-top: 5px;clear: both;}
+.order .play p{margin-bottom: 0; padding-left: 7px; line-height: 48px;float: left;font-family: "黑体";font-size:14px ;color: #444242 ;}
+
+.order .message{float: right;margin-top: -145px;margin-right: 85px;}
+.order .message textarea {border: 2px solid #b5b5b5; padding: 0 8px; margin-top: 0px;margin-left:25px;width:187px;height: 93px;outline: none;resize: none;}
+.order .message button{display: block;width: 32px;height: 17px;outline: none;border: 1px solid #b5b5b5;font-size: 12px;color: #ff021a;background-color: #FFFFFF;line-height: 16px;margin-left: 195px;}
+.order .play_success{width: 826px;height: 48px;background-color: #FFFFFF;margin-left: 20px;margin-top: 5px;}
+.order .play_success p{margin-bottom: 5px; padding-left: 7px; line-height: 48px;float: left;font-family: "黑体";font-size:14px ;color: #444242 ;}
+.order .play_success p a{line-height: 48px;font-family: "黑体";font-size:18px ;color: #fa88aa ;}
+
+
+
+
+
+
+
+
+
+
+
+

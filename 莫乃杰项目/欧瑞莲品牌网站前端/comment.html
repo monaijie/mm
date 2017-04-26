@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点评页</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/comment.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/comment.js" ></script>
+		<script type="text/javascript" src="js/car_num.js" ></script>
+	</head>
+	<body>
+		<!--tou-->
+		<div class="bg" >
+			<div class="container">
+				<div class="right text">
+					<ul>
+						<li><a href="javascript:;" id="login">[登录]</a></li>
+						<li><a href="javascript:;" id="register">[注册]</a></li>
+						<li><a href="user.html">会员中心 </a></li>
+						<li><a href="###">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/index/logo.png" title="欢迎来到xx电子商场" alt="图片无法加载" />
+				</a>
+			</div>
+			<div class="select">
+				<form>
+					<input type="text" />
+					<button>搜索</button>
+				</form>
+			</div>
+			<div class="buy_car">
+				<span><i></i><a href="shop_carts.html">我的购物车<span class="badge">5</span></a></span>				
+			</div>
+		</div>
+		
+		<!---nav-->
+		<div class="background">
+			<div class="container">
+				<div class="nva">
+					<div class="left all_pro">
+						<span>全部商品分类</span>
+						<ul class="all_classify">
+							<li>
+								<dl>
+									<dt>化妆品</dt>
+									<dd><a href="shop-list.html">精华</a></dd>
+									<dd><a href="shop-list.html">洁面</a></dd>
+									<dd><a href="shop-list.html">面霜</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>个人清理 </dt>
+									<dd><a href="shop-list.html">洗发水</a></dd>
+									<dd><a href="shop-list.html">洗甲水</a></dd>
+									<dd><a href="shop-list.html">护手霜</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>男士用品 </dt>
+									<dd><a href="shop-list.html">男士面膜</a></dd>
+									<dd><a href="shop-list.html">男生眼霜</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>母婴用品 </dt>
+									<dd><a href="shop-list.html">妈咪爽肤水</a></dd>
+									<dd><a href="shop-list.html">婴儿沐浴露</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>功效 </dt>
+									<dd><a href="shop-list.html">抗氧化</a></dd>
+									<dd><a href="shop-list.html">祛斑</a></dd>
+									<dd><a href="shop-list.html">保湿</a></dd>
+								</dt>
+							</li>
+							<li>
+								<dl>
+									<dt>品牌 </dt>
+									<dd><a href="shop-list.html">倩碧</a></dd>
+									<dd><a href="shop-list.html">香奈儿</a></dd>
+									<dd><a href="shop-list.html">迪奥</a></dd>
+								</dt>
+							</li>
+						</ul>
+					</div>
+					<div class="classify">
+						<ul>						
+							<li class="lack"><a href="index.html">首页</a></li>
+							<li><a href="##">最新信息</a></li>
+							<li><a href="shop-list.html">条样品伊日健</a></li>
+							<li><a href="shop-list.html">护肤</a></li>
+							<li><a href="shop-list.html">彩妆</a></li>
+							<li><a href="shop-list.html">护体</a></li>
+							<li><a href="shop-list.html">男士</a> </li>						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--header_end-->
+		
+		<!--内容-->
+		<div class="mg">
+			<p>位置：<a href="index.html">首页</a><a href="comment.html">-点评页</a></p>
+			<div class="picture">
+				<div class="big_pic">
+					<img src="img/comment/pic01.jpg" alt="图片无法加载" />
+				</div>
+				<div  class="small_pic">
+					<ul>
+						<li><img src="img/comment/pic02.jpg" alt alt="图片无法加载"/></li>
+						<li><img src="img/comment/pic03.jpg" alt alt="图片无法加载"/></li>
+						<li><img src="img/comment/pic04.jpg" alt alt="图片无法加载"/></li>
+						<li><img src="img/comment/pic05.jpg" alt alt="图片无法加载"/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="conter">
+				<h4>凝时鲜颜洁面霜</h4>
+				<ul>
+					<li>店铺价格：<span>￥199.00</span></li>
+					<li>商品重量：00.01（千克）</li>
+					<li>物品运费：千峰市至千峰市 卖家承担</li>
+					<li>选择颜色：108件</li>
+					<li>选择尺码：<span class="on">100</span><span>105</span><span>110</span><span>115</span></li>
+					<li>选择数量：<input type="button" value="+" onclick="add()"/><input type="text" value="1" id="number"/><input type="button" value="-" onclick="raduce()"/></li>
+				</ul>
+				<div class="buy">
+					<span><a href="confirm_order.html">立即购买</a></span>
+					<span><a href="shop_carts.html">加入购物车</a></span>
+				</div>
+			</div>
+			<div class="right hot_pro">
+				<ul>
+					<li>
+						<a href="pro_detaiis.html">
+							<img src="img/comment/pic07.jpg"/>
+							<span>凝时鲜颜肌活霜(休眠霜)</span>
+						</a>
+					</li>
+					<li>
+						<a href="pro_detaiis.html">
+							<img src="img/comment/pic08.jpg"/>
+							<span>凝时鲜颜肌活眼部精华乳</span>
+						</a>
+					</li>
+					<li>
+						<a href="pro_detaiis.html">
+							<img src="img/comment/pic09.jpg"/>
+							<span>凝时鲜颜肌活修护精华液</span>
+						</a>
+					</li>
+					<li>
+						<a href="pro_detaiis.html">
+						<img src="img/comment/pic08.jpg"/>
+						<span>凝时鲜颜肌活乳液</span>
+						</a>
+					</li>
+				</ul>
+				<img src="img/comment/pic06.jpg" class="pict" />
+			</div>
+			<div class="clera">
+				<div class="left">
+					<div class="all_pros">
+						<h3>商品分类</h3>
+						<div class="texs">
+							<span>+</span><h5>所有商品</h5>
+						</div>
+						
+						<div class="paragraph">
+							<span>-</span><h5>所有商品</h5>
+							<ul>
+								<li><a href="##">> 纱曼婷</a></li>
+								<li><a href="##">> 莎莉韩森</a></li>
+								<li><a href="##">> 莎娃蒂尼</a></li>
+								<li><a href="##">> 姗拉娜</a></li>
+								<li><a href="##">> 圣泉薇</a></li>
+								<li><a href="##">> 圣薇特</a></li>
+								<li><a href="##">> 诗碧</a></li>
+								<li><a href="##">> 诗碧曼</a></li>
+								<li><a href="##">> 诗芬</a></li>
+								<li><a href="##">> 诗瑞</a></li>
+								<li><a href="##">> 施华蔻</a></li>
+								<li><a href="##">> 舒蕾</a></li>
+								<li><a href="##">> 水宝宝</a></li>
+								<li><a href="##">> 水果之乡</a></li>
+							</ul>
+						</div>
+						<div class="pro_lists">
+							<ul>
+								<li>
+									<img src="img/pro_detaiis/pro04.jpg"  alt="图片无法加载"/>
+									<p>雅诗兰黛</p>
+									<p>盈润保湿精华露 </p>
+									<p>雅诗兰黛 面部精华功效：</p>
+									<p>保湿，美白，补水，抗皱，紧致，</p>
+									<span>￥830(50ml)</span>
+								</li>
+								<li>
+									<img src="img/pro_detaiis/pro05.jpg"  alt="图片无法加载"/>
+									<p>雅诗兰黛</p>
+									<p>盈润保湿精华露 </p>
+									<p>雅诗兰黛 面部精华功效：</p>
+									<p>保湿，美白，补水，抗皱，紧致，</p>
+									<span>￥830(50ml)</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="right details">
+					<div class="information">
+						<ul class="evaluate">
+							<li><a href="pro_detaiis.html">商品详情</a></li>
+							<li><a href="comment.html">评价详情</a></li>
+							<li><a href="##">成交记录</a></li>
+							<li><a href="##">产品咨询</a></li>
+							<li><a href="##">产品跨该</a></li>
+							<li><a href="##">列表</a></li>
+						</ul>
+						<div class="evaluates">
+							<div class="one">
+								<h2>凝时鲜颜洁面霜</h2>
+								<p>110g/  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥110.00</p>
+								<p>功      效：丝绸般霜状质地，遇水揉出丰富的柔细泡沫，深层清洁毛孔污垢以及
+								多余的皮脂和老化角质； 保湿成分令清洁后的肌肤保持湿润及柔嫩质感，用后肌肤更柔滑，鲜嫩。</p>
+								<p>适用肤质：干性/油性/混合型</p>
+								<p>使用方法：取2cm左右的量于掌心，加水揉出丰富泡沫，将泡沫于面部打圈仔细清洁肌肤后用温水冲洗干净。</p>
+								<p>总体评价：5</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="comment">					
+						<div class="du">
+							<h5>商品评价</h5>
+							<a>97%</a>
+							<span>好评度</span>
+						</div>
+						<div class="backgrounds">
+							<p>好评度：97%</p>
+							<p>中评：1%</p>
+							<p>差评：2%</p>
+						</div>
+						<div class="impression">
+							<h3>买家印象</h3>
+							<ul>
+								<li><span></span></li>
+								<li><span></span></li>
+								<li><span></span></li>
+								<li><span></span></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="evaluatess">
+						<ul>
+							<li><a href="##">全部评价(189)</a></li>
+							<li><a href="##">晒图评价(90)</a></li>
+							<li><a href="##">好评(70)</a></li>
+							<li><a href="##">中评(10)</a></li>
+							<li><a href="##">差评(19</a></li>
+							<li><label><input type="checkbox" />只看当前评论 </label></li>
+						</ul>
+					</div>
+					
+					<div class="slide_show">
+						<ul>
+							<li>
+								<div class="pic_top">
+									<img src="img/comment/001.png" alt="图片无法显示" />
+									<span>橙色汤圆</span>
+								</div>
+								<div class="b_text">
+									<p>周围很多朋友都在用自然堂的这款洗面奶，很温和，我自己也买了款试了试，
+									真的超温和,还会推荐给周围的朋友的。</p>
+									<p>2015-3-5</p>
+								</div>
+								<img src="img/comment/002.png" alt="图片无法加载" />
+							</li>
+							<li>
+								<div class="pic_top">
+									<img src="img/comment/001.png" alt="图片无法显示" />
+									<span>橙色汤圆</span>
+								</div>
+								<div class="b_text">
+									<p>周围很多朋友都在用自然堂的这款洗面奶，很温和，我自己也买了款试了试，
+									真的超温和,还会推荐给周围的朋友的。</p>
+									<p>2015-3-5</p>
+								</div>
+								<img src="img/comment/002.png" alt="图片无法加载" />
+							</li>
+							<li>
+								<div class="pic_top">
+									<img src="img/comment/001.png" alt="图片无法显示" />
+									<span>橙色汤圆</span>
+								</div>
+								<div class="b_text">
+									<p>周围很多朋友都在用自然堂的这款洗面奶，很温和，我自己也买了款试了试，
+									真的超温和,还会推荐给周围的朋友的。</p>
+									<p>2015-3-5</p>
+								</div>
+								<img src="img/comment/002.png" alt="图片无法加载" />
+							</li>
+							<li>
+								<div class="pic_top">
+									<img src="img/comment/001.png" alt="图片无法显示" />
+									<span>橙色汤圆</span>
+								</div>
+								<div class="b_text">
+									<p>周围很多朋友都在用自然堂的这款洗面奶，很温和，我自己也买了款试了试，
+									真的超温和,还会推荐给周围的朋友的。</p>
+									<p>2015-3-5</p>
+								</div>
+								<img src="img/comment/002.png" alt="图片无法加载" />
+							</li>
+							<li>
+								<div class="pic_top">
+									<img src="img/comment/001.png" alt="图片无法显示" />
+									<span>橙色汤圆</span>
+								</div>
+								<div class="b_text">
+									<p>周围很多朋友都在用自然堂的这款洗面奶，很温和，我自己也买了款试了试，
+									真的超温和,还会推荐给周围的朋友的。</p>
+									<p>2015-3-5</p>
+								</div>
+								<img src="img/comment/002.png" alt="图片无法加载" />
+							</li>
+						</ul>
+					</div>
+					<div class="page">
+						<ul>
+							<li><a href="###">首页  </a></li>
+							<li><a href="###">1</a></li>
+							<li><a href="###">2</a></li>
+							<li><a href="###">3</a></li>
+							<li><a href="###">4</a></li>
+							<li><a href="###">5</a></li>
+							<li><a href="###">...</a></li>
+							<li><a href="###">9</a></li>
+							<li><a href="###">下一页</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<!--底部-->
+		<div class="foot_bg">
+			<div class="container">
+				<div class="guide">
+					<dl>
+						<dt>新手指南</dt>
+						<dd><a href="##">使用说明</a></dd>
+						<dd class="abouts"><a href="##">购物卡使用说明</a></dd>
+						<dd><a href="##">购物流程</a></dd>
+						<dd><a href="##">客户注册</a></dd>
+					</dl>
+				</div>
+				<div class="pay_tip">
+					<dl>
+						<dt>支付说明</dt>
+						<dd><a href="##">优惠卷使用说明</a></dd>
+						<dd><a href="##">常见支付问题</a></dd>
+						<dd><a href="##">支付方式</a></dd>
+						<dd><a href="##">欲存款支付</a></dd>
+					</dl>
+				</div>
+				<div class="dt_problem">
+					<dl>
+						<dt>配送问题</dt>
+						<dd><a href="##">常见配送问题</a></dd>
+						<dd><a href="##">配送范围</a></dd>
+						<dd><a href="##">运送方式和运费问题</a></dd>
+						<dd><a href="##">商品运送与签收</a></dd>
+					</dl>
+				</div>
+				<div class="service">
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="##">退款说明</a></dd>
+						<dd><a href="##">办理退换货</a></dd>
+						<dd><a href="##">退换货说明</a></dd>
+						<dd><a href="##">放心说明</a></dd>
+					</dl>
+				</div>
+				<div class="about">
+					<dl>
+						<dt>关于我们</dt>
+						<dd><a href="##">了解我们</a></dd>
+						<dd><a href="##">联系我们</a></dd>
+						<dd><a href="##">诚聘精英</a></dd>
+					</dl>
+				</div>
+				<p>服务邮箱 &nbsp;&nbsp;&nbsp;xxx-xxx-xxx</p>
+			</div>			
+		</div>
+		
+		<div class="foot_b">
+			<div class="container">
+				<div class="partner">
+					<ul>
+						<li><a href="##"><img src="img/index/panter/pic01.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic02.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic03.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic04.png" /> </a></li>
+						<li><a href="##"><img src="img/index/panter/pic05.png" /> </a></li>	
+						<li><a href="##"><img src="img/index/panter/pic06.png" /> </a></li>	
+					</ul>			
+				</div>
+				<div class="texts">
+					<p>COPYRIGHT © 2010-2015 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。 客服热线：400-123-8888 </p>
+					<p>京公网安备 11010102001226 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

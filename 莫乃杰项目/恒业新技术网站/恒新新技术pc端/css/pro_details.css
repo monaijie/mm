@@ -1,0 +1,89 @@
+@charset "utf-8";
+/**************banner图*************************/
+.pro_banner{width:100%;height:300px;overflow:hidden;position:relative;z-index:1;}
+.pro_banner .banner{width:100%;height:300px;overflow:hidden;}
+.pro_banner .banner ul{width:100%;position:relative;overflow:hidden;height:300px;}
+.pro_banner .banner ul a{height:300px;width:1920px;margin-left:-960px;position:absolute;left:50%;}
+.pro_banner .banner img{display:block;height:300px;}
+/*****************中间部分*****************************/
+.content .mg{width:1200px;margin:0 auto;}
+/****************中间左边导航顶部部分**************************************/
+.content .mg .left{float:left;margin-top:60px;margin-left:5px;}
+.content .mg .left .left_top{width:205px;height:218px;background:url(../images/basa.img/left_top.png) no-repeat;display:block;margin-bottom:30px;}
+.content .mg .left .left_top h3{letter-spacing:4px;font-size:22px;font-family:"微软雅黑";text-align:center;padding-top:15px;color:#FFF;margin-bottom:10px;}
+.content .mg .left .left_top li{width:210px;background:url(../images/basa.img/backroun_top2.png) no-repeat center;margin-left: 4px;text-align:center;}
+.content .mg .left .left_top li a{font-size:16px;font-family:"微软雅黑";line-height:46px;margin-left: -25px;color:#333333;display:block;*display:block;}
+.content .mg .left .left_top li:hover{background:url(../images/basa.img/backgroun_top1.png) no-repeat center;color:#0033cc;}
+.content .mg .left .left_top .active{background:url(../images/basa.img/backgroun_top1.png) no-repeat center;}
+.content .mg .left .left_top .active a{color:#0033cc;}
+.content .mg .left .left_top a:hover{color:#0033cc;}
+/****************中间左边导航底部部分**************************************/
+.content .mg .left .left_bottom{width:205px;height:218px;background:url(../images/basa.img/leeft_bottom.png) no-repeat;display:block;margin-bottom:30px;}
+.content .mg .left .left_bottom h3{letter-spacing:4px;font-size:22px;font-family:"微软雅黑";text-align:center;padding-top:15px;color:#FFF;margin-bottom:10px;}
+.content .mg .left .left_bottom li{background:url(../images/basa.img/backgroun_bottom2.png) no-repeat center;margin-left: -13px;font-size:14px;font-family:'宋体';line-height:46px;padding-left:25px;color:#333333;overflow:hidden;}
+/*.content .mg .left .left_bottom li:hover{background:url(../images/basa.img/backgroun_bottom1.png) no-repeat center;}*/
+.content .mg .left .left_bottom li:hover a{color:#0033cc;}
+/****************中间右边顶部部分**************************************/
+.content .mg .right{float:right;width:955px;margin-top:73px;}
+.content .mg .right .title{height:28px;border-bottom:1px solid #cccccc;margin-left: 26px;}
+.content .mg .right .title h3{padding:0 5px;letter-spacing:4px;color:#0244c7;font-size:20px;border-bottom:4px solid #0033cc;font-family:"微软雅黑";float:left;font-weight:bold;}
+.content .mg .right .title p{color:#333333;font-size:14px;font-family:"微软雅黑";float:right;line-height:35px;}
+.content .mg .right .title p a{color:#333333;font-size:14px;font-family:"微软雅黑";}
+.content .mg .right .title .active{color:#0033cc;}
+
+.text{margin-top:37px;}
+/****************中间右边内容图片部分**************************************/
+.text .pic{height:365px;width:445px;position:relative;margin-left: 28px;}
+.text .pic li{position:absolute;top:0;}
+.text .pic img{width:434px;height:365px;display:block;float:left;border:1px solid #cccccc;margin-right:62px;}
+/****************中间右边内小容图片部分**************************************/
+.text .pic_small{clear:both;margin-left: 28px;cursor:pointer;}
+.text .pic_small li{width:92px;height:76px;border:1px solid #666666;display:block;float:left;margin:23px 22px 65px 0;}
+.text .pic_small li:hover{border:1px solid #ff9900;}
+.text .pic_small .active{border:1px solid #ff9900;}
+/****************中间右边内图片解释部分**************************************/
+.text .message{float:right;margin-top: -350px;margin-right: 90px;}
+.text .message li{font-family:"微软雅黑";font-size:16px;color:#666666;line-height:45px;}
+.text .message li span{font-family:"微软雅黑";font-size:16px;color:#666666;line-height:45px;padding-left:20px;}
+.text .message p{margin-left:100px}
+/****************中间右边内图产品说明部分**************************************/
+.text .tip{clear:both;margin-top:65px;margin-left:28px;}
+.text .tip h4{font-family:"微软雅黑";font-size:20px;color:#0246cf;margin-bottom:15px;}
+.text .tip p{font-family:'宋体';font-size:14px;color:#666666;line-height:25px;}
+
+.text .page{margin-top:30px;margin-left:28px;}
+.text .page a{font-family:'宋体';font-size:12px;color:#666666;line-height:30px;}
+.text .page p:hover a{color:#0033cc;}
+
+
+/****************中间右边更多产品轮播部分**************************************/
+.more{margin:35px auto;position:relative;margin-left:28px;}
+.more .pro_pic{margin-left: 40px;width: 853px;height:270px;overflow: hidden;position:relative;}
+.more  h3{font-family:"微软雅黑";font-size:20px;color:#666666;margin-top:40px;}
+.more .pro_pic img{display:block;}
+.more .pro_pic ul{margin:0 -25px 0 0px;overflow:hidden;}
+.more .pro_pic li{margin:27px 23px 23px 0;float:left;text-align:center;width:195px;position:absolute;}
+.more .pro_pic li img{border:2px solid #0246cf;width:195px;height:155px;display:block;}
+.more .pro_pic li:hover img{border:2px solid #ff9900;color:#ff9900;}
+.more .pro_pic .name a{font-family:"微软雅黑";font-size:15px;color:#333333;line-height:50px;border:none;display:block}
+.more .pro_pic  li:hover .name a{color:#ff9900;border:none;display:block}
+/*.more .pro_pic li:hover a{color:#ff9900;}*/
+
+/****************中间右边更多产品轮播按钮部分**************************************/
+.more .pic_left{width:33px;height:68px;display:block;top:100px;left:0px;background:url(../images/pro_details-img/lunbo_left2.png) no-repeat;clear:both;position:absolute; cursor:pointer;}
+.more .pic_right{width:33px;height:68px;display:block;top:100px;background:url(../images/pro_details-img/lunbo_right2.png);right:-8px;clear:both;position:absolute;cursor:pointer;}
+.more .pic_left:hover{background:url(../images/pro_details-img/lunbo_left1.png) no-repeat;}
+.more .pic_right:hover{background:url(../images/pro_details-img/lunbo_right1.png) no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+

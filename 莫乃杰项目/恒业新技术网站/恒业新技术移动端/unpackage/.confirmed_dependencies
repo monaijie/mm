@@ -1,0 +1,20 @@
+{
+	"index.html": {
+		"resources": [
+			"img/banner01.jpg",
+			"css/style.css",
+			"img/time_bg.jpg",
+			"img/aboutIcon.png",
+			"img/about.jpg",
+			"css/index.css",
+			"img/product01.jpg",
+			"img/product04.jpg",
+			"img/productIcon.png",
+			"css/common.css",
+			"img/newsIcon.png",
+			"img/product02.jpg",
+			"img/contactIcon.png",
+			"img/product03.jpg"
+		]
+	}
+}

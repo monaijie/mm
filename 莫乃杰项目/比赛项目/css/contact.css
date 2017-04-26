@@ -1,0 +1,22 @@
+.contact_us{margin: 15px 0;}
+.contact_us .mg{height: 520px;/*border: 1px solid red;*/}
+.contact {margin-left: 9%;margin-top: 25px;}
+.contact  h3{font-family: "微软雅黑";font-size: 26px;color: #ff8400;font-weight: normal;line-height: 22px;}
+.contact  h4 {font-family: "微软雅黑";font-size: 20px;color: #ff8400;font-weight: normal;}
+.contact h5{font-family: "微软雅黑";font-size: 20px;color: #ff8400;font-weight: normal;margin-top: 5%;margin-bottom: 5%;}
+.contact p{font-family: "微软雅黑";font-size: 18px;color:#ff8400 ;padding-top:5px ;padding-bottom: 5px;}
+
+.message{margin-top: 1%;margin-right: 5%;}
+.message  h3{font-family: "微软雅黑";font-size: 26px;color: #ff8400;font-weight: normal;line-height: 22px;}
+.message h4{font-family: "微软雅黑";font-size: 20px;color: #ff8400;font-weight: normal;margin-bottom:30px;}
+.message label{font-family: "微软雅黑";font-size: 18px;color: #ff8400;}
+.message input{padding: 0 8px; margin-bottom: 20px;width: 270px;height: 42px;background-color:transparent;border: 1px solid #ff8400;font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;}
+.message textarea{outline: none; margin-left:55px;margin-top: -32px;padding: 0 8px;width: 400px;height: 130px;background-color:transparent;border: 1px solid #ff8400;resize: none;font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;}
+.message button{padding: 2px 30px;font-family: "微软雅黑";font-size: 18px;background-color: #ff8400;color: #FFFFFF;border: none;float: right;margin-left: 15px;cursor: pointer;}
+#submiTip{margin-left: 30px;display: inline-block;float: right;font-size: 14px;color: red;}
+
+#eamilTip{font-family: "微软雅黑";font-size: 14px;color: red;}
+ #nameTip{font-family: "微软雅黑";font-size: 14px;color: red;}
+ #phoneTip{font-family: "微软雅黑";font-size: 14px;color: red;}
+ #messageTip{font-family: "微软雅黑";font-size: 14px;color: red;}
+ 

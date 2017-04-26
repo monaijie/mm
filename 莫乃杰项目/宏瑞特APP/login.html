@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录</title>  
+</head>
+<body>
+	<ion-view class="bg login">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">登录</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="pic">
+			<img src="img/login/logo.png" alt="图片无法加载" />
+		</div>
+		<div class="input">
+			<div class="tips">
+				<p class="tip" ng-if="tip">请填写帐号密码</p>
+				<p class="tip" ng-if="user_tip" >该帐号未注册或者密码错误</p>
+			</div>
+			<form>
+				<label>
+					<span><img src="img/login/popelw.png" alt="图片无法加载"/></span>
+					<input type="text" id="user" ng-model="user" placeholder="您的姓名" />
+				</label>
+				<label>
+					<span><img src="img/login/log.png" alt="图片无法加载"/></span>
+					<input type="password" id="password" ng-model="password" placeholder="您的密码"/>
+				</label>
+				<p><span ui-sref="register">立即注册</span><span>忘记密码？</span></p>
+				<button type="button" ng-click = "into(user,password)">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+			</form>
+		</div>
+	</ion-content>
+	</ion-view>	
+</body>
+</html>

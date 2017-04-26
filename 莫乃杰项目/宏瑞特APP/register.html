@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>注册</title>   
+</head>
+<body>
+	<ion-view class="bg regidter">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">注册</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="pic">
+			<img src="img/login/logo.png" alt="图片无法加载" />
+		</div>
+		<div class="input">
+			<form>
+				<label>
+					<span><img src="img/login/popelw.png" alt="图片无法加载"/></span>
+					<input id="user"  type="text" ng-model="ipone" ng-blur="code_num(ipone)" placeholder="您的会员名" />
+				</label>
+				<label>
+					<span><img src="img/login/log.png" alt="图片无法加载"/></span>
+					<input id="password"  type="password" ng-model="pass"  placeholder="您的密码" />
+				</label>
+				<label>
+					<span><img src="img/login/rm.png" alt="图片无法加载"/></span>
+					<input type="text" id="code" ng-model="codes"  placeholder="您的验证码" />
+				</label>
+					<ion-checkbox id="checked">同意注册协议</ion-checkbox>
+				<span class="huoq">获取验证码</span>
+				<span class="angin-tip" ng-if="again_tip">请填写完信息</span>	
+				<span class="angin-tip" ng-if="register_tip">该帐号已经被注册</span>
+				<button type="button" ng-click="srue(ipone,pass,codes)">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>				
+			</form>
+			<p class="nome" ui-sref="login">已有账号？</p>
+		</div>
+	</ion-content>
+	</ion-view>
+</body>
+</html>

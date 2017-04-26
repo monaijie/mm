@@ -1,0 +1,81 @@
+ .nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 25px;padding-right: 30px;}
+.mg > p{margin-left: 66px;margin-top: 15px;font-family: "黑体";font-size: 14px;color: #6c6a6a;}
+
+.back { margin-left:65px ;margin-right: auto; width: 1135px;background-color: #fefbfb;border: 2px solid #e5e5e5;padding-top: 15px;}
+.by_cat{margin-top: 40px;margin-left: 245px;}
+.by_cat span:nth-child(1){font-family: "黑体";font-size: 14px;color: #6c6a6a;background: url(../img/shop_carts/pic02.png) no-repeat center top; padding-top: 35px;padding-left: 30px; padding-right: 30px;margin: 0 6px;}
+.by_cat span:nth-child(2){font-family: "黑体";font-size: 14px;color: #6c6a6a;background: url(../img/shop_carts/pic21.png) no-repeat center top; padding-top: 35px;padding-left: 30px; padding-right: 30px;margin: 0 6px;}
+.by_cat span:nth-child(3){font-family: "黑体";font-size: 14px;color: #6c6a6a;background: url(../img/shop_carts/pic03.png) no-repeat center top; padding-top: 35px;padding-left: 30px; padding-right: 30px;margin: 0 6px;}
+
+.number{width: 790px;margin-left: 30px;margin-top: 50px;}
+.number table thead tr th{vertical-align: top; text-align: center;font-weight: normal; border: 0; padding-left: 10px;font-family: "黑体";font-size: 14px;color: #454343;}
+.number table thead tr th:nth-child(1){width: 300px;margin-right: 0;padding-right: 0;}
+.number table thead tr th:nth-child(5){padding-left: 10px;}
+.number table  tbody tr td{border: 0;}
+.number table  tbody tr td:nth-child(1){text-align: right;padding-top: 35px;}
+.number table  tbody tr td:nth-child(2){padding-top: 80px;text-align: center;}
+.number table  tbody tr td:nth-child(3){padding-top: 95px;width: 180px;padding-left: 70px;}
+.number table  tbody tr td:nth-child(4){padding-top: 95px;color: red;text-align: center;}
+.number table  tbody tr td:nth-child(5){padding-top: 75px;}
+.number table  tbody tr td span{display: block;}
+.number table  tbody tr td:nth-child(1) input{width: 15px;height:15px}
+.number table  tbody tr td span:nth-child(2){margin-top: 20px;text-decoration: line-through;}
+.number table  tbody tr td:nth-child(3) input:nth-child(1){width: 20px;height: 25px;border: 1px solid #000000;text-align: center;line-height: 25px;background-color: #FFFFFF;font-size: 14px;float: left;border-right: 0;text-align: center;}
+.number table  tbody tr td:nth-child(3) input:nth-child(2){width: 36px;height: 25px;border: 1px solid #000000;text-align: center;line-height: 25px;float: left;text-align: center;}
+.number table  tbody tr td:nth-child(3) input:nth-child(3){width: 20px;height: 25px;border: 1px solid #000000;text-align: center;line-height: 25px;background-color: #FFFFFF;font-size: 14px;float: left;border-left: 0;text-align: center;}
+.number table  tbody tr td:nth-child(5) a:nth-child(1){text-align: center; display: block;font-family: "黑体";font-size: 14px;color: #454343;padding-bottom: 20px;}
+.number table  tbody tr td:nth-child(5) a:nth-child(2){text-align: center; display: block;font-family: "黑体";font-size: 14px;color: #454343;}
+.buttom{float: right;margin-right: 30px;margin-bottom: 18px;}
+.buttom p{padding-top: 15px;font-family: "黑体";font-size: 14px;color: #454343;}
+.buttom p span{font-family: "黑体";font-size: 14px;color: #fb0303;}
+.buttom button{margin-left: 80px; display: block;width: 86px;height: 36px;background-color: red;border: 0;outline: none;color: #FFFFFF;font-family: "微软雅黑";font-size: 14px;line-height: 36px;text-align: center;}
+
+.number table thead tr th:nth-child(4) label{display: block;margin-top: 25px;padding-left: 83px;cursor: pointer;}
+.number table thead tr th:nth-child(5) label{display: block;margin-top: 25px;cursor: pointer;}
+.number table tbody tr td label{padding-right: 10px;}
+.number{position: relative;}
+.mmo{position: absolute;top: 60px;right: 5px;}
+.mmo label:nth-child(1){margin-right: 5px;padding-left: 30px;}
+.mmo label:nth-child(2){padding-left: 30px;}
+
+
+input[type=radio]{visibility: hidden;}
+.mmo label{background: url(../img/shop_carts/yuns.png) no-repeat center;}
+.mmo label.checked{background: url(../img/shop_carts/yus.png) no-repeat  center;}
+
+input[type=checkbox]{visibility: hidden;}
+.number table tbody tr td label{background: url(../img/shop_carts/321.png) no-repeat left center;}
+.number table tbody tr td label.chesd{background: url(../img/shop_carts/121.png) no-repeat left center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>我的订单</title>
+    <!--<link rel="stylesheet" href="css/order.css" />-->
+</head>
+<body>
+	<ion-view class="bg order">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">我的订单</h1>
+	</ion-header-bar>
+	<ion-content>
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<div class="big_box">
+			<div class="title">
+				<span>筛选：</span>
+				<ul class="more">
+					<li class="on">全部订单</li>
+					<li>待付款</li>
+					<li>待收货</li>
+					<li>待发货</li>
+				</ul>
+			</div>
+			<div class="pro_list">
+				<ul>
+					<li ng-repeat='x in productArr'>
+						<div class="pro_lists">
+							<img ng-src="{{x.src}}" alt="图片无法加载"  ui-sref="details"/>
+							<div class="mm">
+								<p  ui-sref="details">{{x.comment}}</p>
+								<p  ui-sref="details">{{x.name}}</p>
+								<span><em>￥{{x.price}}</em><em>￥{{x.sold}}</em><em ng-click = "remove($index)">删除</em></span>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="none"><li><p>待付款</p></li></ul>
+				<ul class="none"><li><p>待收货</p></li></ul>
+				<ul class="none"><li><p>待发货</p></li></ul>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index1.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>	
+</body>
+</html>

@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+/*************banner图********************/
+.index_banner{width:100%;height:550px;overflow:hidden;position:relative;z-index:1;}
+.index_banner .banner{width:100%;height:550px;overflow:hidden;top:0px;left: 0;position:absolute;}
+.index_banner .banner li{width:100%;height:550px;overflow:hidden;float:left;position:relative;}
+.index_banner .banner li a{height:550px;width:1920px;margin-left:-960px;position:absolute;left:50%;}
+.index_banner .banner img{display:block;}
+/*************banner图轮播图标**************************/
+.index_banner .banner_bottom{width:100%;position:absolute;text-align:center;bottom:10px;}
+.index_banner .banner_bottom ul{display: inline-block;*display: inline;*zoom:1;}
+.index_banner .banner_bottom li{float:left;width:80px;height:20px;overflow:hidden;margin:0 20px;background:url(../images/index-img/banner_bottom1.jpg) no-repeat;cursor:pointer;}
+/****************图标鼠标状态*******************************/
+.index_banner .banner_bottom li:hover{background:url(../images/index-img/banner_bottom2.jpg);}
+.index_banner .banner_bottom .on{background:url(../images/index-img/banner_bottom2.jpg);}
+
+
+/**************关于我们**************************/
+.index_about .mg{width:1200px;margin:0 auto;}
+.index_about .about_title{width:100%;padding:65px 0 57px 0;text-align:center;}
+.index_about .about_title h2{font-size:32px;font-family:"微软雅黑";color:#ff9900;text-align:center;display:inline-block;*display:inline;*zoom:1;height:24px;border-bottom:2px solid #003399;width:100%;font-weight: bold;}
+.index_about .about_title span{display:inline-block;*display:inline;*zoom:1;background:#FFF;padding:0 25px;}
+.index_about .about_title p{font-size:20px;color:#333333;text-align:center;font-family:"微软雅黑";padding-top:33px;}
+.index_about .pic{margin-top:-8px;} 
+.index_about .about_title .pic{width:1200px;height:200px;display:block;}
+.index_about .about_title .pic img{width:1200px;height:200px;display:block;}
+.index_about .test{padding-top:24px;text-align:center;}
+.index_about .test p{font-size:14px;font-family:"微软雅黑";color:#333333;text-align:center;}
+.index_about .more{display:block;width:233px;height:44px;line-height:44px;color:#fea21c;font-size:14px;text-align:center;margin:45px auto 60px auto;background:url(../images/index-img/kuang.png) no-repeat;}
+/********************产品展示*******************************/
+.index_Product .mg{width:1200px;margin:0 auto;position:relative;}
+.index_Product .Product_title{width:100%;text-align:center;margin-bottom: 87px;}
+.index_Product .Product_title h2{font-size:32px;font-family:"微软雅黑";color:#ff9900;text-align:center;display:inline-block;*display:inline;*zoom:1;height:24px;border-bottom:2px solid #003399;width:100%;font-weight: bold;}
+.index_Product .Product_title span{display:inline-block;*display:inline;*zoom:1;background:#FFF;padding:0 10px;}
+.index_Product .Product_title p{font-size:20px;color:#333333;text-align:center;font-family:"微软雅黑";padding-top:33px;}
+
+/********************图片展示***********************************/
+.index_Product .pic{width:1104px;height:250px;position:relative;margin:auto;overflow:hidden;}
+.index_Product .pic img{display:block;border:1px solid #cccccc;}
+.index_Product .pic ul{overflow:hidden;margin:0 -2px;}
+.index_Product .pic li{float:left;width:243px;margin:0 18pX 0 16px; position:absolute;text-align:center;}
+.index_Product .pic li img{width:243px;height:198px;display:block;text-align:center;border:2px solid #003499;}
+
+.index_Product .pic li .name{text-align:center;font-size:20px;padding-top:25px;border:none;line-height:27px;}
+.index_Product .pic li .name a{display: block;padding-top: 24px;color:#333333;}
+.index_Product .pic li:hover a{color:#ff9900;}
+.index_Product .pic .name a:hover{border:none;color:#ff9900;display:block;}
+.index_Product .pic li:hover img{width:243px;height:198px;display:block;text-align:center;border:2px solid #ff9900;}
+
+
+
+.index_Product .mores{display:block;height:44px;width:232px;line-height:44px;color:#FFF;font-size:14px;text-align:center;margin:40px auto 60px auto;background:url(../images/index-img/more.png) no-repeat;}
+/***********************产品中心展示轮播***************************************************/
+.index_Product .Product_left{width:34px;height:68px;display:block; position:absolute;left:18px;top:74px;background:url(../images/index-img/product_left2.png) no-repeat;}
+.index_Product .Product_right{width:34px;height:68px;display:block;position:absolute;right:12px;top:74px;background:url(../images/index-img/product_right2.png) no-repeat;}
+.index_Product .Product_left:hover{background:url(../images/index-img/Product_left1.png) no-repeat;}
+.index_Product .Product_right:hover{background:url(../images/index-img/product_right1.png) no-repeat;}
+
+/**********************新闻中心和联系我们*******************************************/
+.content_bottom{width:100%;background-color:#f0f0f0;overflow: hidden;padding-bottom:55px;}
+.content_bottom .mg{width:1200px;margin:0 auto;margin: 0 auto;padding:32px 0 0 30px;;overflow: hidden;}
+
+
+/*************************新闻中心*************************************************/
+.content_bottom .content_lift{float:left;width:520px;overflow:hidden;margin-left:15px;}
+.content_bottom .content_lift .news{position:relative;margin-left: 80px;height:30px;border-bottom:1px solid #cccccc;padding-top:5px;}
+.content_bottom .content_lift .news img{position:absolute;top:0;left:-36px}
+.content_bottom .content_lift  h3{float:left;border-bottom:4px solid #0246cf;text-align:center;font-weight:normal;letter-spacing:3px;font-size:18px;line-height:26px;color:#003398;font-family:"微软雅黑"}
+.content_bottom .content_lift i{font-weight::normal;font-size:16px;colo:#003398;font-style:normal;font-family:"宋体"；letter-spacing:3px;}
+.content_bottom .content_lift  span a{line-height:25px;color:#0246cf;line-height:35px;float:right;font-size:12px;font-family:"宋体"}
+
+
+
+
+
+/*************************新闻中心列表*************************************************/
+.content_lift .news_mune{clear:both;margin-top:20px;margin-left:45px}
+.content_lift .news_mune li{margin-bottom:20px;border-bottom:1px #cccccc solid;clear:both;overflow:hidden}
+.content_lift .news_mune li a{display:inline-block;width: 100%;height: 18px;} 
+
+.content_lift .news_mune li span{font-size:14px;color:#333333;margin-left:2px;float:left;
+ background:url(../images/index-img/yuan.png) left center no-repeat;line-height: 20px;padding-left: 14px;font-family:'宋体';display:inline-block;}
+ 
+.content_lift .news_mune em{font-size:12px;font-family:'宋体';float:right;line-height: 27px;color:#999999;
+font-style:normal;display:inline-block;}
+
+.content_lift .news_mune li:hover span,.content_lift .news_mune li:hover em{color:#ff9900;}
+/*************************联系我们心*************************************************/
+.content_bottom .content_right{float:right;width:540px;}
+.content_bottom .content_right .index_contact{position:relative;}
+.content_bottom .content_right .index_contact img{display:block;float:left;width:35px;height:35px;position:absolute;top: 0px;left: -25px;}
+.content_bottom .content_right .content_title{margin-left:15px;color:#003398;}
+.content_bottom .content_right  h3{float:left;border-bottom:4px solid #0246cf;text-align:center;font-weight:normal;padding-top:4px;letter-spacing:3px;}
+.content_bottom .content_right i{font-style:normal;font-size:18px;letter-spacing:3px;}
+
+.content_bottom .content_right .title_left{clear:both;margin-left:-20px;}
+.content_bottom .content_right .title_left img{height:242px;width:205px;float:left;border:1px solid #999999;margin-top:14px;display:block;padding: 2px;}
+.title_right img{display:block;float:left;padding:0 12px 22px 60px;}
+.title_right .text{margin-top:30px;}
+.title_right p{font-size:14px;font-family:'宋体';color:#333333;}
+.title_right li{overflow:hidden;line-height:25px;}
+
+

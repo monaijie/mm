@@ -1,0 +1,32 @@
+.nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 25px;padding-right: 30px;}
+.reg_center{height: 600px; margin-top: 25px;margin-left: 70px;margin-right: 60px;border: 1px solid #e5e5e5;background: rgba(255,255,255,0.5);width: 150px;}
+.reg_center h4{padding-top: 15px;font-family: "黑体";font-size: 14px;color: #000203;text-align: center;}
+.reg_center li{margin-top: 15px;padding-left: 45px;}
+.reg_center li a{font-family: "黑体";font-size: 12px;color: #5e5f60;}
+.reg_center li:nth-child(3) a{font-family: "黑体";font-size: 12px;color: #fa0623;}
+.reg_center li:nth-child(7) a{font-family: "黑体";font-size: 12px;color: #010507;}
+.reg_center li:nth-child(10) a{font-family: "黑体";font-size: 12px;color: #010507;}
+
+.lookup{margin-top: 25px;}
+.lookup input{padding: 0 8px; width: 160px;height: 22px;border: 1px solid #e5e5e5;margin-top: 5px;float: left;margin-left: 40px;}
+.lookup button{width: 40px;height: 22px;border: 1px solid #e5e5e5;margin-left: 10px;margin-top:5px;background-color: #ffffff;}
+.mg{overflow: hidden;}
+h5{text-align: center;font-family: "黑体";font-size: 14px;color: #303131;margin-top: 10px;}
+.order{margin-top: 12px;width: 815px;border: 1px solid #959595;margin-right: 60px;}
+.order .titel li{float: left;padding-top: 12px;margin-left:70px;margin-right: 35px;}
+.order .textss {clear: both;}
+.order .textss li{float: left;padding-top: 15px;margin-left: 35px;margin-right: 22px;padding-bottom: 12px;}
+.order .textss li:nth-child(5){float: left;padding-top: 15px;margin-left: 95px;}
+
+.botton{margin-top: 20px;text-align: center;}
+.botton h5{text-align: center;font-family: "黑体";font-size: 14px;color: #fa0623;margin-top: 10px;}
+.pro_list{width: 815px;border: 1px solid #959595;margin-right: 60px;overflow: hidden;}
+.pro_list ul > li {margin-bottom: 25px; height: 120px;text-align: center;}
+.pro_list ol > li{line-height: 120px; height: 120px;float: left;margin-right: 64px;margin-left: 10px;font-family: "黑体";font-size: 14px;color: #5e5f60;}
+.pro_list ol > li a{display: block;}
+.pro_list ol > li span{height: 10px;line-height: 10px; display: block; font-family: "黑体";font-size: 14px;color: #5e5f60;padding-bottom: 10px;}
+
+.price{clear: both;margin-right: 62px;margin-bottom: 40px;margin-top: -70px;}
+.price p{font-family: "黑体";font-size: 14px;color: #5e5f60;padding-top: 15px;margin-bottom: 0;line-height: 15px;}
+.price span{font-family: "黑体";font-size: 14px;color: #fd020e;}
+

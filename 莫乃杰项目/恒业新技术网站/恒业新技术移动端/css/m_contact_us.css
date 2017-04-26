@@ -1,0 +1,74 @@
+/*******************头部******************/
+.header{height: 88px;background-color: #023393;position: relative;}
+.header a{display: block;box-sizing: border-box;top: 30px;left: 20px;position: absolute;}
+.header img{max-width:75%;display: block;margin: auto;}
+.header h3{font-weight:normal;font-size: 22px;text-align: center;color: #fff;line-height: 88px;}
+
+/*******************联系我们导航条******************/
+/*.nav{height: 70px;}*/
+.nav a{box-sizing: border-box;padding: 20px 20px;}
+.nav li{font-size: 20px;width: 33%;float: left;/*line-height: 57px;*/text-align: center;padding: 20px 0 4px 0;}
+.nav li:hover{border-bottom: 13px solid #ffcc00;}
+
+/*******************banner图*************************/
+.contact_banner{max-width: 100%;}
+.contact_banner div ul li{text-align: center;}
+.contact_banner div ul li img{width: 100%;display: block;margin: 0 auto}
+
+/*******************正文部分****************************/
+.contact_details{overflow: hidden;background-color: #f0f0f0;}
+.contact_details .contact_title{border-bottom: 2px solid #0246cf;clear: both;overflow: hidden;}
+.contact_details .contact_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 22px;padding-left: 10px;padding-top: 25px;}
+.contact_details .contact_title span{font-family: arial;color: #fcd641;font-size:18px;}
+
+.contact_details .pic{box-sizing: border-box;padding: 10px 1px 10px 5px;overflow: hidden}
+.contact_details .pic img{display: block;float: left;width: 34%;padding: 10;box-sizing: border-box;}
+.contact_details .title{box-sizing: border-box;width: 66%;float: right;}
+.contact_details .title p{font-size: 13px;color: #666666;line-height: 20px;padding: 5px 4px;}
+.contact_details .title span{font-weight: bold;color: #333;}
+
+/*******************给我留言****************************/
+.text .contact_title{border-bottom: 2px solid #0246cf;clear: both;overflow: hidden;}
+.text .contact_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 22px;padding-left: 10px;padding-top: 25px;}
+.text .contact_title span{font-family: arial;color: #fcd641;font-size:18px;}
+
+.form{width:90%;margin:0 auto;}
+.form label{margin-top:25px;display: block;letter-spacing: 1px;}
+.form div{margin-top:35px;}
+.form span{width:30%;display: inline-block;text-align: center;height:40px;line-height: 40px;letter-spacing: 1px;font-family: "微软雅黑";font-size: 18px;}
+.form input[type="text"]{width:65%;height:40px;line-height: 40px;border:1px solid #000;float: right;padding: 0 5px;}
+.form textarea{width:66%;border:1px solid #000;float: right;padding: 0 5px;}
+.form .on{line-height: 0;}
+.form div:after,form>label:after{content:'';clear: both;display: block;}
+.form div>input.code{width:30%;margin-right:4%;padding: 0 5px;}
+.form div>img{width:30%;float: right;height:42px;}
+.form div>a{font-size:16px;width:35%;display: inline-block;clear: both;margin-top:35px;margin-left:27%;text-decoration: underline;}
+.form div>input[type="submit"]{letter-spacing:4px;width:29%;height:40px;line-height: 40px;text-align: center;border:none;background: #ffcc00;margin-left:6.8%;cursor: pointer;font-size: 16px;color: #336635;}
+				
+/*******************地图****************************/
+.map .map_title{border-bottom: 2px solid #0246cf;clear: both;overflow: hidden;}
+.map .map_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 22px;padding-left: 10px;padding-top: 10px;}
+.map .map_title span{font-family: arial;color: #fcd641;font-size:18px;}
+.map .middle{margin:20px auto 20px auto;display:block;width:96%;height:200px;border:1px solid #999;}
+
+
+@media only screen  and (max-width: 380px) and (min-width:320px){
+	.nav li{font-size: 18px;width: 33%;float: left;/*line-height: 55px;*/text-align: center;padding: 20px 0 4px 0;}
+	.contact_details .contact_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 18px;padding-left: 10px;}
+    .contact_details .contact_title span{font-family: arial;color: #fcd641;font-size:16px;}  
+ 	.text .contact_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 18px;padding-left: 10px;padding-top: 25px;}
+	.text .contact_title span{font-family: arial;color: #fcd641;font-size:16px;}
+	.map  .map_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 18px;padding-left: 10px;padding-top: 10px;}
+	.map  .map_title span{font-family: arial;color: #fcd641;font-size:16px;}
+	.contact_details .title p{font-size: 11px;color: #666666;line-height: 12px;padding: 5px 4px;}	
+    .form div>input.code{width:30%;margin-right:4%;padding: 0 5px;}
+    .form div>a{font-size:15px;width:39%;display: inline-block;clear: both;margin-top:35px;margin-left:22%;}
+    .form div>input[type="submit"]{letter-spacing:3px;width:30%;height:40px;line-height: 40px;text-align: center;border:none;background: #ffcc00;margin-left:6%;font-size: 16px;color: #336635;cursor: pointer;padding: 0 5px;}
+    .form input[type="text"]{width:66%;height:40px;line-height: 40px;border:1px solid #000;float: right;}
+    .form span{width:28%;display: inline-block;text-align: center;height:50px;line-height: 44px;font-family: "微软雅黑";font-size: 15px;}
+    .form textarea{width:66%;border:1px solid #000;float: right;padding: 0 5px;}
+    
+}
+*:focus { outline: none; }
+input,textarea {outline:none;}
+

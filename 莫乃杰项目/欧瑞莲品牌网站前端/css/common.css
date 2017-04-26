@@ -1,0 +1,96 @@
+.bg{width: 100%;height: 40px;background-color: #959595;border: 1px solid red ;}
+.container{padding-right: 0;padding-left: 0;}
+.container .title p{font-family: "黑体";font-size: 24px;color: #f0f5f8;line-height: 40px;}
+.container .text li{float: left;margin-left:10px ;}
+.container .text li a{font-family: "黑体";font-size: 14px;color: #f0f5f8;line-height: 40px;}
+
+.logo{margin-top: 60px;margin-left: 50px;}
+.logo img{display: block;float: left;}
+.select{margin-left: 125px;float: left;margin-right: 15px;}
+.select input{width:465px ;height: 55px;border: 2px solid #e60012;float: left;padding: 0 8px;line-height: 55px;}
+.select button{margin-left: 10px; width: 100px;height: 55px;background-color: #ff0000;border: 2px solid #e60012;font-family: "微软雅黑";font-size: 30px;color: #fefcfc;line-height: 50px;}
+.buy_car{float: right;margin-top: 12px;}
+.buy_car span{float: right;margin-top: -9px;}
+.buy_car span a{padding-left: 30px;padding-top: 5px;padding-bottom: 5px;padding-right: 5px; font-family: "黑体";font-size: 24px;color: #444444;background: url(../img/index/buy_car.png) no-repeat center left;border: 1px solid red;}
+.buy_car span i{padding-left: 2px;height: 22px;width: 1px;background-color: #FFFFFF;position: relative;right: -2px;top: -3px;}
+.buy_car .badge{background-color: red;color: #000;}
+.badge{border-radius: 50px;}
+
+.background{background-color: #ff0000;height: 80px;width: 100%;margin-top: 40px;}
+.all_pro{height: 80px;width: 216px;position: relative;margin-left: 60px;margin-right: -15px;}
+.all_pro span{display:block;font-family: "黑体";font-size: 24px;color: #fdfbfb;display: block;padding-top: 24px;padding-bottom: 8px;cursor: pointer;}
+.all_pro:hover .all_classify{display: block; }
+
+.all_pro .all_classify{display: none; padding-left: 8px;z-index: 100;position: absolute;left:0;top:80px;width: 100%;padding-top: 25px;overflow: hidden;background: rgba(241,158,194,0.5);padding-bottom: 15px;margin-left: -45px;width: 245px;}
+.all_pro .all_classify li{margin-bottom: 40px;}
+.all_pro .all_classify dl{margin-bottom: 75px;}
+.all_pro .all_classify dt{font-family: "黑体";font-size: 18px;color: #070202;}
+.all_pro .all_classify li:nth-child(1) dd{margin-left: 18px;margin-top: 30px;padding-right: 25px;}
+.all_pro .all_classify li:nth-child(1) dd:last-child{margin-left: 15px;margin-top: 30px;padding-right: 0px;}
+.all_pro .all_classify li:nth-child(2) dd{margin-left: 20px;margin-top: 30px;padding-right:15px;}
+.all_pro .all_classify li:nth-child(2) dd:last-child{margin-left: 15px;margin-top: 30px;padding-right:0px;}
+.all_pro .all_classify li:nth-child(3) dd{margin-left: 20px;margin-top: 30px;padding-right: 45px;}
+.all_pro .all_classify li:nth-child(3) dd:last-child{margin-left: 15px;margin-top: 30px;padding-right: 0px;}
+.all_pro .all_classify li:nth-child(4) dd{margin-left: 20px;margin-top: 30px;padding-right: 30px;}
+.all_pro .all_classify li:nth-child(4) dd:last-child{margin-left: 15px;margin-top: 30px;padding-right: 0px;}
+.all_pro .all_classify li:nth-child(5) dd{margin-left: 15px;margin-top: 30px;padding-right: 35px;}
+.all_pro .all_classify li:nth-child(5) dd:last-child{margin-left: 15px;margin-top: 30px;padding-right: 0px;}
+.all_pro .all_classify li:nth-child(6) dd{margin-left: 15px;margin-top: 30px;padding-right: 35px;}
+.all_pro .all_classify li:nth-child(6) dd:last-child{margin-left: 15px;margin-top: 30px;padding-right: 0px;}
+.all_pro .all_classify dd{float: left;}
+.all_pro .all_classify dd a{display:block;font-family: "黑体";font-size: 14px;color: #3a3939;}
+
+.nva .classify{margin-bottom: 0;overflow: hidden;height: 80px;}
+.nva .classify li{float: left;}
+/*.nva .classify li.lack a{color: #040000;background-color: #FFFFFF;}*/
+/*.nva .classify li:first-child{padding-right: 10px;}*/
+.nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 30px;padding-right: 40px;}
+.nva .classify li:nth-child(2) a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 10px;padding-right: 30px;}
+/*.nva .classify li:hover a{color: #040000;background-color: #FFFFFF;}*/
+
+
+.foot_bg{height: 280px;width: 100%;background-color:#000000;clear: both;overflow: hidden;margin: auto;}
+.guide{margin-top: 25px;float: left;margin-right:100px;margin-left: 35px;}
+.guide dl dt{font-family: "黑体";font-size: 18px;color: #f0f5f8;padding-top:20px;}
+.guide dl dd{padding-top: 15px;}
+.guide dl dd.abouts{padding-top:7px;}
+.guide dl dd a{font-family: "黑体";font-size: 18px;color: #f0f5f8;}
+
+.pay_tip{margin-top: 25px;float: left;margin-right:115px;}
+.pay_tip dl dt{font-family: "黑体";font-size: 18px;color: #f0f5f8;padding-top: 20px;}
+.pay_tip dl dd{padding-top: 15px;}
+.pay_tip dl dd a{font-family: "黑体";font-size: 18px;color: #f0f5f8;}
+
+.dt_problem{margin-top: 25px;float: left;margin-right: 115px;}
+.dt_problem dl dt{font-family: "黑体";font-size: 18px;color: #f0f5f8;padding-top: 20px;}
+.dt_problem dl dd{padding-top: 15px;}
+.dt_problem dl dd a{font-family: "黑体";font-size: 18px;color: #f0f5f8;}
+
+.service{margin-top: 25px;float: left;margin-right: 115px;}
+.service dl dt{font-family: "黑体";font-size: 18px;color: #f0f5f8;padding-top:20px;}
+.service dl dd{padding-top:15px ;}
+.service dl dd a{font-family: "黑体";font-size: 18px;color: #f0f5f8;}
+
+.about{margin-top: 25px;float: left;}
+.about dl dt{font-family: "黑体";font-size: 18px;color: #f0f5f8;padding-top:20px;}
+.about dl dd{padding-top:15px;}
+.about dl dd a{font-family: "黑体";font-size: 18px;color: #f0f5f8;}
+.foot_bg p{clear: both;float: right;overflow: hidden;font-family: "黑体";font-size: 18px;color: #f0f5f8;margin-right: 100px;margin-top: -5px;}
+
+.foot_b{height: 175px;}
+.partner{margin-top: 35px;margin-left: 130px;}
+.partner li{float: left;padding-left:15px;padding-bottom: 20px;}
+.partner li img{display: block;cursor: pointer;}
+
+.texts{clear: both;overflow: hidden;padding-left:125px ;}
+.texts p{font-family: "宋体";font-size: 18px;color: #070202;margin-bottom: 0;}
+
+
+
+
+
+
+
+
+
+

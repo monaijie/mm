@@ -1,0 +1,54 @@
+/*****************关于我们头部***********************/
+.header{height: 88px;background-color: #023393;position: relative;}
+.header a{display: block;box-sizing: border-box;top: 30px;left: 20px;position: absolute;}
+.header img{max-width: 75%;display: block;margin: auto;}
+.header h3{font-weight:normal;font-size: 22px;text-align: center;color: #fff;line-height: 88px;}
+/*******************关于我们导航条******************/
+/*.nav{height: 70px;}*/
+.nav a{box-sizing: border-box;padding: 20px 20px;color: #333;}
+.nav li{font-size:20px;width: 33%;float: left;/*line-height: 57px;*/text-align: center;padding:20px 0 4px 0;}
+.nav .active{border-bottom: 12px solid #ffcc00;}
+
+/*******************banner图*************************/
+.about_banner{max-width: 100%;}
+.about_banner div ul li{text-align: center;}
+.about_banner div ul li img{width: 100%;display: block;margin: 0 auto}
+
+/*******************正文部分****************************/
+.about_us .about_title{border-bottom: 2px solid #0246cf;margin-top: 25px;clear: both;}
+.about_us .about_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 22px;padding-left: 10px;}
+.about_us .about_title span{font-family: arial;color: #fcd641;font-size:18px;}
+.about_us .text {margin-bottom: 90px;}
+.about_us .text p{text-indent:2em;font-family: "微软雅黑";font-size: 18px;color: #666666;line-height: 25px;padding: 0 10px;}
+.about_us .text img{max-width: 90%;margin: 10px auto 5px auto;display:block;}
+
+@media only screen  and (max-width: 380px) {
+	/******************导航条***************************************/
+	.nav li{font-size: 16px;width: 33%;float: left;/*line-height: 55px;*/text-align: center;padding:20px 0 4px 0 ;}
+	/********************关于我们正文部分**********************************************/
+	.about_us .text p{text-indent:2em;font-family: "微软雅黑";font-size: 14px;color: #5a5a5a;line-height: 25px;padding: 0 10px;}
+	.about_us .about_title h3{font-weight:normal;font-family: "微软雅黑";color: #333333;font-size: 18px;padding-left: 10px;}
+    .about_us .about_title span{font-family: arial;color: #fcd641;font-size:16px;}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

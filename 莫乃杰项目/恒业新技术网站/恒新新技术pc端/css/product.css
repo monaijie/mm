@@ -1,0 +1,59 @@
+@charset "utf-8";
+/**************banner图*************************/
+.product_banner{width:100%;height:300px;overflow:hidden;position:relative;z-index:1;}
+.product_banner .banner{width:100%;height:300px;overflow:hidden;}
+.product_banner .banner ul{width:100%;position:relative;overflow:hidden;height:300px;}
+.product_banner .banner ul a{height:300px;width:1920px;margin-left:-960px;position:absolute;left:50%;}
+.product_banner .banner img{display:block;height:300px;}
+/*****************中间部分*****************************/
+.content .mg{width:1200px;margin:0 auto;}
+/****************中间左边导航顶部部分**************************************/
+.content .mg .left{float:left;margin-top:60px;margin-left:5px;}
+.content .mg .left .left_top{width:205px;height:218px;background:url(../images/basa.img/left_top.png) no-repeat;display:block;margin-bottom:30px;}
+.content .mg .left .left_top h3{letter-spacing:4px;font-size:22px;font-family:"微软雅黑";text-align:center;padding-top:15px;color:#FFF;margin-bottom:10px;}
+.content .mg .left .left_top li{width:210px;background:url(../images/basa.img/backroun_top2.png) no-repeat center;margin-left: 4px;text-align:center;}
+.content .mg .left .left_top li a{font-size:16px;font-family:"微软雅黑";line-height:46px;margin-left: -25px;color:#333333;display:block;*display:block;}
+.content .mg .left .left_top li:hover{background:url(../images/basa.img/backgroun_top1.png) no-repeat center;}
+.content .mg .left .left_top .active{background:url(../images/basa.img/backgroun_top1.png) no-repeat center;}
+.content .mg .left .left_top .active a{color:#0033cc;}
+.content .mg .left .left_top li:hover a{color:#0033cc;}
+/****************中间左边导航底部部分**************************************/
+.content .mg .left .left_bottom{width:205px;height:218px;background:url(../images/basa.img/leeft_bottom.png) no-repeat;display:block;margin-bottom:30px;}
+.content .mg .left .left_bottom h3{letter-spacing:4px;font-size:22px;font-family:"微软雅黑";text-align:center;padding-top:15px;color:#FFF;margin-bottom:10px;}
+.content .mg .left .left_bottom li{background:url(../images/basa.img/backgroun_bottom2.png) no-repeat center;margin-left: -13px;font-size:14px;font-family:'宋体';line-height:46px;padding-left:25px;color:#333333;overflow:hidden;}
+/*.content .mg .left .left_bottom li:hover{background:url(../images/basa.img/backgroun_bottom1.png) no-repeat center;}*/
+.content .mg .left .left_bottom li:hover a{color:#0033cc;}
+/****************中间右边顶部部分**************************************/
+.content .mg .right{float:right;width:965px;margin-top:73px;}
+.content .mg .right .title{height:28px;border-bottom:1px solid #cccccc;margin-left: 25px;}
+.content .mg .right .title h3{padding:0 5px;letter-spacing:4px;color:#0244c7;font-size:20px;border-bottom:4px solid #0033cc;font-family:"微软雅黑";float:left;font-weight:bold;}
+.content .mg .right .title p{color:#333333;font-size:14px;font-family:"微软雅黑";float:right;line-height:35px;}
+.content .mg .right .title p a{color:#333333;font-size:14px;font-family:"微软雅黑";}
+.content .mg .right .title .active{color:#0033cc;}
+
+/****************中间右边图片展示部分**************************************/
+.text .pic{clear:both;margin-left: 25px;}
+.text .pic ul{margin-right:-45px;overflow:hidden;}
+.text .pic li{width:200px;height:213px;text-align:center;display:block;border:1px solid #999999;float:left;margin:34px 44px 20px 0;overflow:hidden;}
+.text .pic li a{outline:none;}
+.text .pic li img{width:179px;height:149px;display:block;border:1px solid #cccccc;margin:7px auto 19px auto;}
+.text .pic li a{font-family:"微软雅黑";font-size:16px;;color:#333333;display:block;}
+.text .pic li:hover{border:1px solid #0246cf;}
+.text .pic li:hover a{color:#0246cf;}
+/****************中间右边第部部分**************************************/
+.page{text-align:center;margin:0 auto ;padding-right:15px;}
+.page ul{overflow:hidden;;display:inline-block;}
+.page li{float:left;padding-right:15px;margin:50px 0 125px 0;display:inline-block;font-size:16px;font-family:"微软雅黑";color:#666666;}
+.page li a{font-size:16px;font-family:"微软雅黑";color:#666666;cursor:pointer;display:block;}
+.page .num a{padding:0 4px;float:left;font-size:16px;font-family:"微软雅黑";color:#666666;}
+.page li a:hover{color:#083ba0;cursor:pointer;}
+
+
+
+
+
+
+
+
+
+

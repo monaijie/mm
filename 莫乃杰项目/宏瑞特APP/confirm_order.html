@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>确定订单</title>  
+</head>
+<body>
+	<ion-view class="bg confirmorder">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">确定订单</h1>
+	</ion-header-bar>
+	<ion-content>
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<div class="title">
+			<div>订单号:<span>1234567891011</span></div>
+			<div>下单时间:<span>2016.4.26</span></div>
+			<div>收货信息:
+				<span>张三</span>
+				<span>13900000000</span>
+				<span>北京市东城区建国大门内大街25号</span>
+				</p>
+			</div>
+		</div>
+		<div class="pro_list">
+			<ul>
+				<li ng-repeat ='x in porsArr'>
+					<div class="pro_lists">
+						<img ng-src="{{x.src}}" alt="图片无法加载" ui-sref="details"/>
+						<div class="mm">
+							<p ui-sref="details">{{x.name}}</p>
+							<p>规格：{{x.standard}}</p>
+							<span><em>￥{{x.price}}</em><em>x{{x.sold}}</em></span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="settle">
+			<span>总价:<em>{{initVal.total | currency:"￥" }}</em></span>
+			<span>结算  29:59</span>
+			<button ui-sref="pay">提交订单</button>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+</ion-view>
+</body>
+</html>

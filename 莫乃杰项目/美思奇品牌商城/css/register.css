@@ -1,0 +1,85 @@
+.new{background-color: #99dde9;width: 100%;overflow: hidden;}
+.new .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.new .top .on a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;padding-right: 3px;}
+.new .top span a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 3px;}
+
+.register_bg{background: url(../img/register/pg.jpg) no-repeat center;width: 100%;padding-bottom: 30px;}
+
+.border{border: 1px solid #97b9bf;width: 75%;margin: 50px auto;background: rgba(243,243,243,0.4);}
+.inputer{width: 60%;margin: auto;}
+.border h3{font-family: "微软雅黑";font-size: 24px;color: #232323;margin-bottom: 35px;font-weight: normal;padding-top: 10px;}
+.name .form-control{border: 1px solid #000;border-radius: 2px;}
+.name label{font-family: "微软雅黑";font-size: 16px;color: #222222;font-style: normal;font-weight: normal;}
+.home label{font-family: "微软雅黑";font-size: 16px;color: #222222;font-style: normal;font-weight: normal;}
+
+.select {margin-right: 2%;border: 1px solid #333;height: 30px;width: 110px;border-radius: 2px;margin-left: 1%;font-family: "微软雅黑";font-size: 16px;color: #494949;outline: none;}
+.home{margin-left:22.2%;}
+.home > .text-right{margin-right: 2%;}
+.form-group textarea{resize:none;border: 1px solid #000;height:70px;margin-left: 38%;width: 365px;border-radius: 4px;border-radius: 2px;outline: none;}
+.submit{margin-left: 15.2%;}
+.submit label{font-family: "微软雅黑";font-size: 16px;color: #222222;font-style: normal;font-weight: normal;}
+.submit .form-control{border: 1px solid #000;border-radius: 0;}
+.button .checkbox input[type="checkbox"]{margin-left: -20px;margin-top: 5px;}
+.button{margin-left:45.5% ;}
+.button label{font-family: "微软雅黑";font-size: 16px;color: #222222;font-style: normal;font-weight: normal;}
+.button .btn{margin-left: 16%;border: 1px solid #000000;border-radius: 0;padding: 6px 25px}
+.button .btn-default{background-color: #000;color: #FFFFFF;border-color: #000; margin-top: 10px;}
+
+.home .col-lg-2{text-align: right;}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+.new{background-color: #99dde9;width: 100%;overflow: hidden;}
+.new .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.new .top .on a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;padding-right: 3px;}
+.new .top span a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 3px;}
+
+.register_bg{background: url(../img/register/pg.jpg) no-repeat center;width: 100%;padding-bottom: 30px;}
+
+.border{border: 1px solid #97b9bf;width: 100%;margin: 50px auto;background: rgba(243,243,243,0.4);}
+.inputer{/*width: 70%;*/margin: auto;}
+.border h3{font-family: "微软雅黑";font-size: 24px;color: #232323;margin-bottom: 35px;font-weight: normal;padding-top: 10px;}
+.name .form-control{border: 1px solid #000;border-radius: 2px;}
+.name label{font-family: "微软雅黑";font-size: 14px;color: #2a2a2a;font-style: normal;}
+.select {margin-right: 2%;border: 1px solid #333;height: 30px;width: 110px;border-radius: 2px;margin-left: 1%}
+.home{margin-left:22.2%;}
+.home > .text-right{margin-right: 0;}
+.form-group textarea{border: 1px solid #000;height:70px;margin-left: 42%;width: 365px;border-radius: 4px;border-radius: 2px;}
+.submit{margin-left: 15.2%;}
+.submit label{width:30%}
+.submit .form-control{border: 1px solid #000;border-radius: 0;}
+.button .checkbox input[type="checkbox"]{margin-left: -20px;margin-top:5px;}
+.button{margin-left:45.5%;}
+.button .btn{margin-left: 14%;border: 1px solid #000000;border-radius: 0;padding: 6px 25px}
+.button .btn-default{background-color: #000;color: #FFFFFF;border-color: #000; margin-top: 10px;}
+
+.home > select > option{font-family: "微软雅黑";font-size: 12px;}	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.new{background-color: #99dde9;width: 100%;overflow: hidden;}
+.new .top p{font-family: "微软雅黑";font-size: 16px;color: #262525;}
+.new .top .on a{font-family: "微软雅黑";font-size: 14px;color: #262525;padding-left: 10px;padding-right: 3px;}
+.new .top span a{font-family: "微软雅黑";font-size: 14px;color: #262525;padding-left: 3px;}
+
+.register_bg{background: url(../img/register/pg.jpg) no-repeat center;width: 100%;padding-bottom: 30px;}
+
+.border{border:none;width: 100%;margin: 20px auto;background: rgba(243,243,243,0.4);}
+.inputer{width: 100%;margin: auto;}
+.border h3{font-family: "微软雅黑";font-size: 18px;color: #232323;margin-bottom: 35px;font-weight: normal;padding-top: 10px;}
+.name .form-control{border: 1px solid #000;border-radius: 2px;}
+.name label{font-family: "微软雅黑";font-size: 14px;color: #2a2a2a;font-style: normal;}
+.select {margin-right: 2.5%;border: 1px solid #333;height: 30px;width: 29%;border-radius: 2px;margin-left: 1%}
+.home{margin-left:7.666%;}
+.home .col-xs-12{padding-right: 0;} 
+.home > .text-right{margin-right: 0;}
+.form-group textarea{border: 1px solid #000;height:70px;margin-left: 8%;width: 80%;border-radius: 4px;border-radius: 2px;}
+.submit{margin-left: 5%;}
+.submit label{width:36%;text-align: left;}
+.submit .form-control{border: 1px solid #000;border-radius: 0;margin-bottom: 8%;}
+.button .checkbox input[type="checkbox"]{margin-left: -20px;margin-top: 5px;}
+.button{padding-left:28.5% ;margin-left: 0;}
+.button .btn{margin-left: 8%;border: 1px solid #000000;border-radius: 0;padding: 6px 25px}
+.button .btn-default{background-color: #000;color: #FFFFFF;border-color: #000; margin-top: 10px;}
+.home .col-xs-12{text-align: left;}
+	
+}	
+

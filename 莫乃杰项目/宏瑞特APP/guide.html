@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>引导页</title>   
+</head>
+<body ng-controller="guideCrl">
+	<ion-view>
+		<ion-slide-box class="guide" on-slide-changed="changeSlide($index)">
+			<ion-slide ng-repeat="x in guideArr">
+				<img ng-src="{{x.img}}" />
+				<a ui-sref="home">立即体验</a>
+			</ion-slide>
+		</ion-slide-box>
+	</ion-view>   
+</body>
+</html>

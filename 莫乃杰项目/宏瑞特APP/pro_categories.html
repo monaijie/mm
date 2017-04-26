@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>商品分类</title>
+</head>
+<body>
+	<ion-view class="bg procategories">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">商品分类</h1>
+			<div class="titles">
+				<button class="button ion-search button-light" ui-sref="search">寻找你喜欢的商品</button>
+			</div>
+	</ion-header-bar>
+	<ion-content class="top">
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<div class="conter">
+			<div class="tas row">
+				<div class="col-33 pro_style aplee">
+					<ul>
+						<li><a href="#"  class="action">哈密瓜干</a></li>
+						<li><a href="#">草莓干</a></li>
+						<li><a href="#">蜜橘干</a></li>
+						<li><a href="#">猕猴桃干</a></li>
+						<li><a href="#">草莓干</a></li>
+						<li><a href="#">苹果干篷</a></li>
+						<li><a href="#">蜜饯</a></li>
+						<li><a href="#">草莓蜜饯</a></li>
+					</ul>
+				</div>
+				<div class="col-66 com_style">
+					<ul class="pics">
+						<li ng-repeat='x in proArr'><a href="#" ui-sref="details">
+							<img ng-src="{{x.src}}" alt="图片无法加载" />
+							<p>{{x.name}}</p>
+							<p>{{x.standard}}</p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic02.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic02.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic04.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic05.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic02.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic03.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" ui-sref="details">
+							<img src="img/pro_categories/pic01.jpg" alt="图片无法加载" />
+							<p>嘿好吃的干干</p>
+							<p>5g装/50g装/150g装 </p>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index1.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>	
+</body>
+</html>

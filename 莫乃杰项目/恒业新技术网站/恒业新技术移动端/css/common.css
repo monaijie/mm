@@ -1,0 +1,11 @@
+/***********************版权部分**************************************/
+.footer{margin-top: 20px;background-color: #666666;text-align: center;clear:both;overflow: hidden;}
+.footer p{font-family: "微软雅黑";font-size: 14px;line-height: 25px;text-align: center;color: #c0c0c0;}
+
+@media only screen  and (max-width: 380px) {
+	
+	 .footer p{font-family: "微软雅黑";font-size: 12px;line-height: 25px;text-align: center;color: #c0c0c0;}	
+}
+
+
+

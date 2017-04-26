@@ -1,0 +1,163 @@
+.pay{background-color: #99dde9;width: 100%;overflow: hidden;}
+.pay .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.pay .top span{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;}
+
+.cart_body{background: url(../img/shop_cart/bg1.jpg) no-repeat center;width: 100%;overflow: hidden;padding-bottom: 30px;}
+
+.border_bottom .tips span{font-family: "微软雅黑";font-size: 16px;color: #242424;}
+.buys{margin-top: 60px;width: 70%;border: 1px solid #bee1e3;padding-top: 20px; }
+.buys .border_bottom{padding-bottom: 20px;}
+.buys .tip{border: 3px solid #00aac8;width: 78%;margin: 23px auto 0 116px;padding: 5px 8px 2px 8px;}
+.buys .tip p{font-family: "微软雅黑";font-size: 16px;color:#292929;margin: 0;line-height: 25px;}
+.buys .tip span{font-family: "微软雅黑";font-size: 16px;color:#292929;}
+.buys .tip p:first-child+p{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip span a{font-family: "微软雅黑";font-size: 12px;color:#292929;padding-right: 20px;}
+.buys .progress{margin:0 auto 30px auto;width: 70%;height: 15px;background-color: #f5f5f5;border-radius: 15px;}
+.alipay > button.more{padding-left: 50px;padding-right: 50px;}
+
+.pics .img-responsive{margin: auto;}
+.title .on{font-family: "微软雅黑";font-size: 16px;color:#262626;margin-left: 3%;}
+.title p a{font-family: "微软雅黑";font-size: 12px;color:#262626;}
+.text {clear: both;background: url(../img/shop_cart/bg12.png) no-repeat center;height: 140px;margin-left: 25%;padding-top: 30px;padding-left: 10px;}
+.text  p{margin-left: 5%;padding-bottom: 10px;font-family: "微软雅黑";font-size: 12px;color:#FFFFFF;}
+
+.texts div,.texts div p{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+
+.back .more {margin-bottom: 25px;}
+.pay_back .action{padding-left: 12%;font-family: "微软雅黑";font-size: 16px;color:#262626;}
+.back  a{font-family: "微软雅黑";font-size: 14px;color:#FFFFFF;background-color:#63c9da ;padding: 5px 15px;}
+.back {margin-top: 5px;}
+.back .btn-lg{padding: 7px 40px;font-size: 18px;border: 1px solid transparent;border-radius: 0;}
+.back .btn-default{color: #FFFFFF;background-color: #63c9da;border-color: #63c9da;}
+.back .buy{margin-bottom: 15px;}
+
+.tilte p{font-family: "微软雅黑";font-size: 16px;color:#262626}
+
+.in{padding-bottom: 0;margin-bottom: 2px;padding-left: 6%;font-family: "微软雅黑";font-size: 16px;color: #202020;}
+.left{margin-left: 20px;}
+.pro_list ul li{padding:5px 0;margin-bottom:10px;}
+.pro_list .texts{margin-top: 5px;}
+.texts a:first-child{font-family: "微软雅黑";font-size: 16px;color:#262626;}
+.texts em{font-family: "微软雅黑";font-size: 14px;color:#ff0000 ;font-style: normal;display: inline-block;}
+.texts span{font-family: "微软雅黑";font-size: 17px;color:#ff0000;display: inline-block;}
+
+.all label{font-family: "微软雅黑";font-size: 16px;color: #222222;font-style: normal;font-weight: normal;}
+.all p{margin-top: 8px;font-family: "微软雅黑";font-size: 18px;color: #1e1e1e;}
+.all p span{font-family: "微软雅黑";font-size: 18px;color: #ef0000;padding-right: 30px;}
+.all div{margin-left: 6.5%;}
+.backs{padding-right: 5%;}
+.backs .btn-lg{padding: 3px 15px 3px 15px;font-size: 16px;border: 1px solid transparent;border-radius: 0;margin-bottom: 60px;margin-top: 10px;font-family: "微软雅黑";}
+.backs .btn-default{color: #FFFFFF;background-color: #333333;border-color: #333333;}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+.border_bottom .tips a{font-family: "微软雅黑";font-size: 16px;color: #242424;}
+.buys{margin-top: 60px;width: 90%;border: 1px solid #bee1e3;padding-top: 20px; }
+.buys .border_bottom{padding-bottom: 20px;}
+.buys .tip{border: 3px solid #00aac8;width: 78%;margin: 23px auto 0 116px;padding: 5px 8px 2px 8px;}
+.buys .tip p{font-family: "微软雅黑";font-size: 16px;color:#292929;margin: 0;line-height: 25px;}
+.buys .tip span{font-family: "微软雅黑";font-size: 16px;color:#292929;}
+.buys .tip p:first-child+p{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip span a{font-family: "微软雅黑";font-size: 12px;color:#292929;padding-right: 20px;}
+.buys .progress{margin:0 auto 30px auto;width: 70%;height: 15px;background-color: #f5f5f5;border-radius: 15px;}
+.alipay > button.more{padding-left: 37px;padding-right: 40px;}
+
+.title .on{font-family: "微软雅黑";font-size: 16px;color:#262626;margin-left: 3%;}
+.title p a{font-family: "微软雅黑";font-size: 12px;color:#262626;}
+.text {clear: both;background: url(../img/shop_cart/bg12.png) no-repeat center;height: 140px;margin-left: 25%;padding-top: 30px;padding-left: 10px;}
+.text  p{margin-left: 0;padding-bottom: 0;font-family: "微软雅黑";font-size: 12px;color:#FFFFFF;}
+
+.pics .img-responsive{margin: auto;}
+.back .more {margin-bottom: 25px;}
+.texts .action{padding-left: 12%;font-family: "微软雅黑";font-size: 16px;color:#262626;}
+.back  a{font-family: "微软雅黑";font-size: 14px;color:#FFFFFF;background-color:#63c9da ;padding: 5px 15px;}
+.back {margin-top: 5px;}
+.back .btn-lg{padding: 7px 30px;font-size: 16px;border: 1px solid transparent;border-radius: 0;}
+.back .btn-default{color: #FFFFFF;background-color: #63c9da;border-color: #63c9da;}
+.back .buy{margin-bottom: 15px;}
+
+.tilte p{font-family: "微软雅黑";font-size: 16px;color:#262626}
+.in{padding-bottom: 0;margin-bottom: 2px;padding-left: 6%;font-family: "微软雅黑";font-size: 16px;color: #202020;}
+.left{margin-left: 20px;}
+.pro_list ul li{padding:5px 0;margin-bottom:10px;}
+.pro_list .texts{margin-top: 5px;}
+.texts a:first-child{font-family: "微软雅黑";font-size: 14px;color:#262626;}
+.texts em{font-family: "微软雅黑";font-size: 14px;color:#ff0000 ;font-style: normal;display: inline-block;}
+.texts span{font-family: "微软雅黑";font-size: 16px;color:#ff0000;display: inline-block;}
+
+.all label{font-family: "微软雅黑";font-size: 16px;color: #403636;font-style: normal;}
+.all p{margin-top: 8px;font-family: "微软雅黑";font-size: 18px;color: #1e1e1e;}
+.all p a{font-family: "微软雅黑";font-size: 18px;color: #ef0000;}
+
+.backs{padding-right: 5%;}
+.backs .btn-lg{padding: 3px 15px 3px 15px;font-size: 16px;border: 1px solid transparent;border-radius: 0;margin-bottom: 60px;margin-top: 10px;}
+.backs .btn-default{color: #FFFFFF;background-color: #333333;border-color: #333333;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.pay{background-color: #99dde9;width: 100%;overflow: hidden;}
+.pay .top p{font-family: "微软雅黑";font-size: 16px;color: #262525;}
+.pay .top span{font-family: "微软雅黑";font-size: 14px;color: #262525;padding-left: 10px;}
+
+.cart_body{background: url(../img/shop_cart/bg1.jpg) no-repeat center;width: 100%;overflow: hidden;padding-bottom: 30px;}
+
+.border_bottom .tips a{font-family: "微软雅黑";font-size: 12px;color: #242424;}
+.border_bottom .col-lg-4{padding-left: 0;}
+
+.buys{margin-top: 60px;width: 95%;border: 1px solid #bee1e3;padding-top: 20px; }
+.buys .border_bottom{padding-bottom: 20px;}
+.buys .tip{border: 3px solid #00aac8;width: 78%;margin: 23px auto 0 116px;padding: 5px 8px 2px 8px;}
+.buys .tip p{font-family: "微软雅黑";font-size: 16px;color:#292929;margin: 0;line-height: 25px;}
+.buys .tip span{font-family: "微软雅黑";font-size: 16px;color:#292929;}
+.buys .tip p:first-child+p{font-family: "微软雅黑";font-size: 12px;color:#292929;}
+.buys .tip span a{font-family: "微软雅黑";font-size: 12px;color:#292929;padding-right: 20px;}
+.buys .progress{margin:0 auto 30px auto;width: 70%;height: 15px;background-color: #f5f5f5;border-radius: 15px;}
+
+.pics .img-responsive{margin: auto;}
+.title .on{font-family: "微软雅黑";font-size: 14px;color:#262626;margin-left: 3%;}
+.title p a{font-family: "微软雅黑";font-size: 12px;color:#262626;}
+.text {clear: both;background: url(../img/shop_cart/bg12.png) no-repeat center;height: 140px;margin-left: 0;padding-top: 10px;padding-left: 10px;text-align: center;}
+.text  p{margin-left: 5%;padding-bottom:0;font-family: "微软雅黑";font-size: 12px;color:#FFFFFF;}
+
+.texts div,.texts div p{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+
+.back .more {margin-bottom: 10px;}
+.pay_back .action{padding-left: 12%;font-family: "微软雅黑";font-size: 16px;color:#262626;}
+.back  a{font-family: "微软雅黑";font-size: 12px;color:#FFFFFF;background-color:#63c9da ;padding: 5px 15px;}
+.back {margin-top: 5px;}
+.back .btn-lg{padding: 7px 25px;font-size: 12px;border: 1px solid transparent;border-radius: 0;}
+.back .btn-default{color: #FFFFFF;background-color: #63c9da;border-color: #63c9da;}
+.back .buy{margin-bottom: 15px;}
+.alipay > button.more{padding-left: 30px;padding-right: 32px;}
+
+.tltie ul{padding: 0;}
+.tilte p{font-family: "微软雅黑";font-size: 14px;color:#262626}
+.tilte .col-xs-2{padding-left: 0;}
+.tilte .col-xs-1{padding-left: 0;}
+.in{padding-bottom: 0;margin-bottom: 2px;padding-left: 6%;font-family: "微软雅黑";font-size: 14px;color: #202020;}
+.left{margin-left: 20px;}
+.pro_list ul{padding: 0;}
+.pro_list ul li{padding:5px 0;margin-bottom:10px;}
+.pro_list .texts{margin-top: 5px;}
+.texts a:first-child{font-family: "微软雅黑";font-size: 12px;color:#262626;}
+.texts em{font-family: "微软雅黑";font-size: 12px;color:#ff0000 ;font-style: normal;display: inline-block;}
+.texts span{font-family: "微软雅黑";font-size: 12px;color:#ff0000;display: inline-block;}
+.texts .col-xs-2{padding-left: 0;}
+
+.all label{font-family: "微软雅黑";font-size: 14px;color: #222222;font-style: normal;font-weight: normal;}
+.all p{margin-top: 8px;font-family: "微软雅黑";font-size: 16px;color: #1e1e1e;}
+.all p span{font-family: "微软雅黑";font-size: 16px;color: #ef0000;padding-right: 30px;}
+.all div{margin-left: 6.5%;}
+.backs{padding-right: 5%;}
+.backs .btn-lg{padding: 3px 5px 3px 5px;font-size: 16px;border: 1px solid transparent;border-radius: 0;margin-bottom: 30px;margin-top: 10px;font-family: "微软雅黑";}
+.backs .btn-default{color: #FFFFFF;background-color: #333333;border-color: #333333;}
+		
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+.text {clear: both;background: url(../img/shop_cart/bg12.png) no-repeat center;height: 140px;margin-left: 25%;padding-top: 30px;padding-left: 10px;}
+.text  p{margin-left: 3%;padding-bottom: 0px;font-family: "微软雅黑";font-size: 12px;color:#FFFFFF;}
+.tilte .col-md-1{padding: 0;}	
+}
+

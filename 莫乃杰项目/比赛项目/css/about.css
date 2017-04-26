@@ -1,0 +1,52 @@
+.about {
+	margin: 15px 0;
+}
+
+.about .mg {
+	height: 520px;
+	/*border: 1px solid red;*/
+}
+
+.about_text {
+	width: 500px;
+	margin-left: 100px;
+}
+
+.about_text h3 {
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #ff8400;
+	text-align: center;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+.about_text h4 {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #ff8400;
+	text-align: center;
+	font-weight: normal;
+}
+
+.about_text p {
+	width: 500px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #ff8400;
+	text-indent: 2em;
+	margin-top: 25px;
+}
+
+.pic {
+	width: 500px;
+}
+
+.pic img {
+	border: 3px solid #ff8400;
+}
+
+.foot {
+	clear: none;
+	overflow: hidden;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>产品列表</title>   
+</head>
+<body>
+	<ion-view class="bg productlist">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">产品列表</h1>
+	</ion-header-bar>
+	<ion-content>
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<div class="title">
+			<span>分类：</span>
+			<ul class="more">
+				<li class="activ">苹果干</li>
+				<li>草莓干</li>
+				<li>葡萄干</li>
+				<li>蓝莓蜜饯</li>
+			</ul>
+		</div>
+		<div class="lists">
+			<span>默认排序：</span>
+			<ul class="styas">
+				<li class="on" ng-click="changeOrder($event,'香甜')">全部</li>
+				<li ng-click="changeOrder($event,'果脯')">果干</li>
+				<li ng-click="changeOrder($event,'蜜饯')">蜜饯</li>
+			</ul>
+		</div>
+		<div class="pro_list">
+			<ul class="row row-wrap">
+				<li ng-repeat='x in startArr | filter:orderType' class="col col-25 list">
+					<div class="bg">
+						<a ui-sref="details">
+							<img ng-src="{{x.src}}" alt="图片无法加载">
+						</a>
+						<div class="buy_bow">
+							<h3>{{x.name}}</h3>
+							<p   ui-sref="details"><span>￥{{x.price}}</span><span>原价{{x.sold}}</span></p>
+							<div class="buy">
+								<a  ui-sref="confrim">立即购买</a>
+								<a  ui-sref="shopCar" class="icon ion-android-cart ">购物车</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="row row-wrap none"><li><p>苹果干</p></li></ul>
+			<ul class="row row-wrap none"><li><p>蓝莓蜜饯</p></li></ul>
+			<ul class="row row-wrap none"><li><p>蓝莓蜜饯</p></li></ul>
+		</div>
+		<ion-infinite-scroll on-infinite="loadMove()" ng-if="moveBool" distance = "0%">
+				
+		</ion-infinite-scroll>
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index1.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()" class="bgs">
+				<div>
+					<img src="img/home/shop.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>	  
+    <script type="text/javascript" src="js/shopCar.js" ></script>
+    <script type="text/javascript" src="js/productList.js" ></script>
+    
+</body>
+</html>

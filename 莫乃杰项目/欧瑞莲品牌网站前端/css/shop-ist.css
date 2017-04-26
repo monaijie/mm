@@ -1,0 +1,57 @@
+.nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 25px;padding-right: 30px;}
+.brand{margin-top: 18px;overflow: hidden;margin-left: 70px;}
+.brand ul li{float: left;margin-right: 30px;font-family: "黑体";font-size: 18px;color:#000000;}
+.brand ul li:nth-child(1){margin-right: 15px;}
+.brand ul li:last-child a{color: #fd041b;}
+.brand ul li a{color: #000000;}
+.brand ul li a:hover{color: #fd041b;}
+.price{margin-top: 18px;clear: both;overflow: hidden;margin-left: 70px;}
+.price ul li{float: left;margin-right: 15px;font-family: "黑体";font-size: 18px;color:#000000;}
+.price ul li:nth-child(1){margin-right: 15px;}
+.price ul li a{color: #000000;}
+.price ul li a:hover{color: #fd041b;}
+
+.nursing{margin-top: 18px;clear: both;overflow: hidden;margin-left: 70px;}
+.nursing ul li{float: left;margin-right: 30px;font-family: "黑体";font-size: 18px;color:#000000;}
+.nursing ul li:nth-child(1){margin-right: 15px;}
+.nursing ul li:nth-child(2) a{color: #fd041b;}
+.nursing ul li a{color: #000000;}
+.nursing ul li a:hover{color: #fd041b;}
+
+.category{margin-top: 18px;clear: both;overflow: hidden;margin-left: 70px;}
+.category ul li{float: left;margin-right: 30px;font-family: "黑体";font-size: 18px;color:#000000;}
+.category ul li:nth-child(1){margin-right: 15px;}
+.category ul li:nth-child(4) a{color: #fd041b;}
+.category ul li a{color: #000000;}
+.category ul li a:hover{color: #fd041b;}
+
+.lookup{height: 48px;border: 2px solid #eeeeee;padding: 5px;margin-top: 20px;}
+.lookup input{width: 30px;outline: none;}
+.lookup tbody tr td{font-family: "黑体";font-size: 14px;color:#656161;padding-right: 10px;padding-left: 10px;}
+
+.lookup tbody tr td button{margin-top: -2px; border: 1px solid #c9c9c9;background-color: #c9c9c9;outline: none;font-family: "微软雅黑";font-size: 14px;padding: 3px 5px;}
+.lookup .input-group{border: 1px solid #eeeeee;}
+.lookup .input-group .form-control{width: 70px;border: none;outline: none;}
+.lookup .input-group-addon{background-color: transparent;border: none;outline: none;}
+.lookup .sure{border: none;outline: none;display: inline-block;}
+.lookup .input-group .sure{width: 145px;margin-right: 10px;outline: none;} 
+
+.por_list ul li{float: left;text-align: center;margin-right: 20px;margin-top: 30px;}
+.por_list ul li img{display: block;width: 212px;height: 179px;}
+.por_list .information {background-color: #e5e5e5;overflow: hidden;height: 60px;}
+.por_list .information a{display: block;font-family: "黑体";font-size: 15px;color: #040404;}
+.por_list .information span{line-height: 10px;margin-right: 15px;padding-left: 5px;font-family: "微软雅黑";font-size: 12px;color: #040404;}
+.por_list .information span:nth-child(2){color: red;}
+.por_list .information span:nth-child(3){text-decoration: line-through;}
+.por_list .information p{margin-bottom: 0;padding-top: 5px;font-family: "黑体";font-size: 12px;color: #040404;}
+
+.page{margin-top: 30px;float: right;margin-bottom: 25px;margin-right: 32px;}
+.page ul li{float: left;margin-left: 5px;font-family: "黑体";font-size: 14px;color: #6c6a6a;}
+.page ul li a{display: block;font-family: "黑体";font-size: 14px;color: #6c6a6a;padding: 0 8px;}
+.page ul li:nth-child(2) a{background-color: red;color: #FFFFFF;}
+.page ul li a:hover{background-color: red;color: #FFFFFF;}
+
+
+
+
+

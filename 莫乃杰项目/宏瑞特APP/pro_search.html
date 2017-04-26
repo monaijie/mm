@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>产品搜索</title>
+</head>
+<body>
+	<ion-view class="bg prosearch">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">商品分类</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="title">
+			<button><img src="img/home/search.png"></button>
+			<input placeholder="寻找你喜欢的商品" class="seachg" id="focus" ></input>
+			<ul class="more">
+				<li>热门搜索 </li>
+				<li ui-sref="pro_categories">果脯   </li>
+				<li ui-sref="pro_categories">蜜饯  </li>
+				<li ui-sref="pro_list">更多</li>
+			</ul>
+		</div>		
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index1.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>
+</body>
+</html>

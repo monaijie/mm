@@ -1,0 +1,88 @@
+.new{background-color: #99dde9;width: 100%;overflow: hidden;}
+.new .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.new .top .on a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;padding-right: 3px;}
+.new .top span a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 3px;}
+
+
+.center_bg{background: url(../img/news/backgrund.jpg) no-repeat center;width: 100%;padding-top: 100px;padding-bottom: 130px;}
+.center_bg .border{border: 1px solid #c3e5ec;background: rgba(255,255,255,0.2);padding: 30px 20px 0 20px;}
+.center_bg .title h3{font-family: "微软雅黑";font-size: 30px;color: #202020;padding-bottom: 5px;}
+.center_bg .title p{font-family: "微软雅黑";font-size: 18px;color: #202020;}
+.center_bg .texts{margin-top: 35px;padding-bottom: 100px;}
+.center_bg .texts p{margin: 0 auto;width:80%;font-family: "微软雅黑";font-size: 18px;color: #202020;line-height: 30px;text-indent: 2em;}
+.center_bg .texts img{margin: 30px auto;display: block;}
+.center_bg .texts .on{margin-top: 25px;}
+
+.box{height:700px;overflow:hidden;position:relative;border:1px solid #CCC;}
+.text{position:absolute;width:100%;}
+.div1{width:19px;height:658px;background: transparent;position:absolute;top:20px;right:5px;}
+.div2{width:19px;height:100px;background:#5fc6d8;position:absolute;top:0;left:0;border-radius: 20px;bottom: 0;}
+.img{position:absolute;top:0;right:4px;}
+.pic{position:absolute;right:4px;bottom: 0;}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+.new{background-color: #99dde9;width: 100%;overflow: hidden;}
+.new .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.new .top .on a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;padding-right: 3px;}
+.new .top span a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 3px;}
+	
+	
+.center_bg{background: url(../img/news/backgrund.jpg) no-repeat center;width: 100%;padding-top: 100px;padding-bottom: 100px;}
+.center_bg .border{border: 1px solid #c3e5ec;background: rgba(255,255,255,0.2);padding: 30px 20px 0 20px;}
+.center_bg .title h3{font-family: "微软雅黑";font-size: 26px;color: #202020;padding-bottom: 5px;}
+.center_bg .title p{font-family: "微软雅黑";font-size: 18px;color: #202020;}
+.center_bg .texts{margin-top: 35px;padding-bottom: 50px;}
+.center_bg .texts p{margin: 0 auto;width:80%;font-family: "微软雅黑";font-size: 18px;color: #202020;line-height: 30px;text-indent: 2em;}
+.center_bg .texts img{margin: 30px auto;display: block;}
+.center_bg .texts .on{margin-top: 25px;}
+
+.box{height:700px;overflow:hidden;position:relative;border:1px solid #CCC;}
+.text{position:absolute;width:100%;}
+.div1{width:19px;height:658px;background: transparent;position:absolute;top:20px;right:5px;}
+.div2{width:19px;height:100px;background:#5fc6d8;position:absolute;top:0;left:0;border-radius: 20px;bottom: 0;}
+.img{position:absolute;top:0;right:4px;}
+.pic{position:absolute;right:4px;bottom: 0;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.new{background-color: #99dde9;width: 100%;overflow: hidden;}
+.new .top p{font-family: "微软雅黑";font-size: 20px;color: #262525;}
+.new .top .on a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 10px;padding-right: 3px;}
+.new .top span a{font-family: "微软雅黑";font-size: 16px;color: #262525;padding-left: 3px;}
+
+.center_bg .container{padding: 0;}
+.center_bg{background: url(../img/news/backgrund.jpg) no-repeat center;width: 100%;padding-top: 40px;padding-bottom: 80px;}
+.center_bg .border{border: 1px solid #c3e5ec;background: rgba(255,255,255,0.2);padding: 30px 20px 0 20px;}
+.center_bg .title h3{line-height: 30px; font-family: "微软雅黑";font-size: 18px;color: #202020;padding-bottom: 5px;}
+.center_bg .title p{font-family: "微软雅黑";font-size: 14px;color: #202020;}
+.center_bg .texts{margin-top: 35px;padding-bottom: 100px;}
+.center_bg .texts p{margin: 0 auto;width:95%;font-family: "微软雅黑";font-size: 14px;color: #202020;line-height: 30px;text-indent: 2em;}
+.center_bg .texts img{margin: 30px auto;display: block;}
+.center_bg .texts .on{margin-top: 25px;}
+
+.box{height:700px;overflow:hidden;position:relative;border:1px solid #CCC;}
+.text{position:absolute;width:88%;}
+.div1{width:19px;height:658px;background: transparent;position:absolute;top:20px;right:5px;}
+.div2{width:10px;height:100px;background:#5fc6d8;position:absolute;top:0;left:10px;border-radius: 20px;bottom: 0;}
+.img{position:absolute;top:0;right:-7px;}
+.img img{width: 50%;}
+.pic img{width: 50%;}
+.pic{position:absolute;right:-7px;bottom: 0;}	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

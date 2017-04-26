@@ -1,0 +1,157 @@
+.bg{background: #99dde9;width: 100%;}
+.bg p{float: left;font-family: "微软雅黑" ;font-size: 20px;color: #0c0b0b;margin-bottom: 0;line-height: 33px;}
+.bg p span a{font-family: "微软雅黑" ;font-size: 16px;color: #565656;}
+.bg p .no a{font-family: "微软雅黑" ;font-size: 16px;color: #0287b8;}
+
+.background{background-color: #99dde9;width: 100%;margin-top: 40px;margin-bottom: 50px;}
+.big_pic img{margin-top: 18px;border:1px solid #00aac8;}
+.small_pic{border: 1px solid #00aac8;margin: 25px 15px;background-color: #FFFFFF;width:93%;}
+.small_pic img{margin: 15px 0;border: 2px solid #ffffff;cursor: pointer;width: 128px;height: 126px;}
+.small_pic .on{border: 2px solid #0da0bc;}
+.small_pic img:hover{background-color: #ebebeb;border: 2px solid #00aac8;}
+
+.text{background-color: #FFFFFF;margin-top: 18px;border: 1px solid #00aac8;width: 47%;padding-bottom: 27px;padding-left: 0;padding-right: 0;}
+.text h4{font-family: "微软雅黑";font-size: 24px;color: #1e1e1e;line-height: 35px;padding: 0 10px;}
+.text ul{padding-left: 0;}
+.text .small_bg{border: 1px solid #b2e5ee;background-color: #fafafa;margin-top: 25px;padding-top: 10px;}
+.text  .small_bg li{font-family: "微软雅黑";font-size: 18px;color: #282828;margin-bottom: 7px;padding: 0 30px;}
+.text p{font-family: "微软雅黑";font-size: 32px;color: #282828;margin-top: 5%;margin-left: 7%;}
+.text p span{font-family: "微软雅黑";font-size: 30px;color: #ff0000;}
+
+.color{margin-top: 7%;}
+.color p{font-family: "微软雅黑";font-size: 24px;color: #292929;margin-top: 10px;}
+.color .col-lg-4{padding-right: 0;margin-right: 0;}
+.black{margin-top: 10px;margin-right: 20px;}
+.black .btn-lg{padding:20px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.black .btn-default{color: #FFFFFF;background-color: #000000;border-color: #5ec6d8;}
+.red{margin-top: 10px;margin-right: 20px;}
+.red .btn-lg{padding:20px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.red .btn-default{color: #FFFFFF;background-color: red;border-color: #5ec6d8;}
+.wite{margin-top: 10px;margin-right: 20px;}
+.wite .btn-lg{padding:20px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.wite .btn-default{color: #FFFFFF;background-color: white;border-color: #5ec6d8;}
+
+.buy_car{margin-top:6% ;}
+.buy_car .leght{width:50px;height: 40px;line-height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;}
+.buy_number{margin: 20px 0;padding-left:8.3333333% ;font-size: 24px;color: #1f1f1f;font-family: "微软雅黑";}
+.number_add {width:50px;height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;position: relative;right: 8px; background-color: #FFFFFF;}
+.number_raduce{width:50px;height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;position: relative;left: 8px;background-color: #FFFFFF;}
+
+.buy_cars{padding:32px 0;}
+.join_car .btn-lg{padding:5px 20px 5px 20px;font-size: 28px;border: 1px solid transparent;border-radius: 0;margin: 0;}
+.join_car .btn-default{color: #ffffff;background-color: #f39800;border-color: #f39800;margin-left: 30px;}
+
+.buy_now .btn-lg{padding:5px 30px 5px 30px;font-size: 28px;border: 1px solid transparent;border-radius: 0;margin: 0;}
+.buy_now .btn-default{color: #ffffff;background-color: #e60012;border-color: #e60012;}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+.bg{background: #99dde9;width: 100%;}
+.bg p{float: left;font-family: "微软雅黑" ;font-size: 20px;color: #0c0b0b;margin-bottom: 0;line-height: 33px;}
+.bg p span a{font-family: "微软雅黑" ;font-size: 16px;color: #565656;}
+.bg p .no a{font-family: "微软雅黑" ;font-size: 16px;color: #0287b8;}
+
+.background{background-color: #99dde9;width: 100%;margin-top: 40px;margin-bottom: 50px;}
+.big_pic img{margin-top: 18px;border:1px solid #00aac8;}
+.small_pic{border: 1px solid #00aac8;margin: 30px 15px;background-color: #FFFFFF;width:93%;}
+.small_pic img{margin: 15px 0;border: 2px solid #ffffff;cursor: pointer;width: 90px;height: 90px;}
+.small_pic .on{border: 2px solid #0da0bc;}
+.small_pic img:hover{background-color: #ebebeb;border: 2px solid #00aac8;}
+
+.text{background-color: #FFFFFF;margin-top: 16px;border: 1px solid #00aac8;width: 47%;padding-bottom: 5px;}
+.text h4{font-family: "微软雅黑";font-size: 18px;color: #1e1e1e;line-height: 25px;cursor: none;}
+.text ul{padding-left: 0;}
+.text .small_bg{border: 1px solid #b2e5ee;background-color: #fafafa;margin-top: 0;padding-top: 10px;}
+.text  .small_bg li{font-family: "微软雅黑";font-size: 15px;color: #282828;margin-bottom: 5px;padding: 0 20px;}
+.text p{font-family: "微软雅黑";font-size: 24px;color: #282828;margin-top: 1%;margin-left: 7%;}
+.text p span{font-family: "微软雅黑";font-size: 22px;color: #ff0000;}
+
+.color{margin-top: 0;}
+.color p{font-family: "微软雅黑";font-size: 20px;color: #292929;margin-top: 20px;}
+.color .col-lg-4{padding-right: 0;margin-right: 0;}
+.black{margin-top: 10px;margin-right: 20px;}
+.black .btn-lg{padding:20px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.black .btn-default{color: #FFFFFF;background-color: #000000;border-color: #5ec6d8;}
+.red{margin-top: 10px;margin-right: 20px;}
+.red .btn-lg{padding:20px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.red .btn-default{color: #FFFFFF;background-color: red;border-color: #5ec6d8;}
+.wite{margin-top: 10px;margin-right: 20px;}
+.wite .btn-lg{padding:20px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.wite .btn-default{color: #FFFFFF;background-color: white;border-color: #5ec6d8;}
+
+.buy_car{margin-top:0 ;}
+.buy_car .col-sm-8{padding-right: 0;}
+
+.buy_car .leght{width:40px;height: 40px;line-height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;}
+.buy_number{margin: 20px 0;padding-left:8.3333333% ;font-size: 20px;color: #1f1f1f;font-family: "微软雅黑";}
+.number_add {width:40px;height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;position: relative;right: 8px; background-color: #FFFFFF;}
+.number_raduce{width:40px;height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;position: relative;left: 8px;background-color: #FFFFFF;}
+
+.buy_cars{padding:0;}
+.join_car .btn-lg{padding:5px 20px 5px 20px;font-size: 20px;border: 1px solid transparent;border-radius: 0;margin: 0;}
+.join_car .btn-default{color: #ffffff;background-color: #f39800;border-color: #f39800;margin-left: 10px;}
+
+.buy_now .btn-lg{padding:5px 30px 5px 30px;font-size: 20px;border: 1px solid transparent;border-radius: 0;margin: 0;}
+.buy_now .btn-default{color: #ffffff;background-color: #e60012;border-color: #e60012;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.bg{background: #99dde9;width: 100%;}
+.bg p{float: left;font-family: "微软雅黑" ;font-size: 16px;color: #0c0b0b;margin-bottom: 0;line-height: 33px;}
+.bg p span a{font-family: "微软雅黑" ;font-size: 14px;color: #565656;}
+.bg p .no a{font-family: "微软雅黑" ;font-size: 14px;color: #0287b8;}
+
+
+.container {padding-left: 0;padding-right: 0;}
+.background{background-color: #99dde9;width: 100%;margin-top: 20px;margin-bottom: 50px;}
+.big_pic img{margin-top: 18px;border:1px solid #00aac8;margin-right: auto;margin-left: auto;}
+.small_pic{border: 1px solid #00aac8;margin: 30px 15px;background-color: #FFFFFF;width:94%;}
+.small_pic img{margin: 15px 0;border: 2px solid #ffffff;cursor: pointer;width:60px;height: 60px;}
+.small_pic .on{border: 2px solid #0da0bc;}
+.small_pic img:hover{background-color: #ebebeb;border: 2px solid #00aac8;}
+
+.text{background-color: #FFFFFF;margin-top: 16px;border: 1px solid #00aac8;width: 82%;padding-bottom: 5px;margin-left: 8%;}
+.text h4{font-family: "微软雅黑";font-size: 14px;color: #1e1e1e;line-height: 20px;}
+.text ul{padding-left: 0;}
+.text .small_bg{border: 1px solid #b2e5ee;background-color: #fafafa;margin-top: 0;padding-top: 10px;}
+.text  .small_bg li{font-family: "微软雅黑";font-size: 12px;color: #282828;margin-bottom: 5px;}
+.text p{font-family: "微软雅黑";font-size: 16px;color: #282828;margin-top: 1%;margin-left: 7%;}
+.text p span{font-family: "微软雅黑";font-size: 14px;color: #ff0000;}
+
+.color{margin-top: 0;}
+.color p{font-family: "微软雅黑";font-size: 14px;color: #292929;margin-top: 20px;}
+.color .col-lg-4{padding-right: 0;margin-right: 0;}
+.black{margin-top: 10px;margin-right: 15px;}
+.black .btn-lg{padding:15px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.black .btn-default{color: #FFFFFF;background-color: #000000;border-color: #5ec6d8;}
+.red{margin-top: 10px;margin-right: 15px;}
+.red .btn-lg{padding:15px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.red .btn-default{color: #FFFFFF;background-color: red;border-color: #5ec6d8;}
+.wite{margin-top: 10px;margin-right: 20px;}
+.wite .btn-lg{padding:15px;font-size: 18px;border: 3px solid transparent;border-radius: 0;}
+.wite .btn-default{color: #FFFFFF;background-color: white;border-color: #5ec6d8;}
+
+.buy_car{margin-top:0 ;}
+.buy_car .col-xs-8{padding-right: 0;}
+.buy_car .leght{width:40px;height: 40px;line-height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;}
+.buy_number{margin: 20px 0;padding-left:8.3333333% ;font-size: 20px;color: #1f1f1f;font-family: "微软雅黑";}
+.number_add {width:40px;height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;position: relative;right: 8px; background-color: #FFFFFF;}
+.number_raduce{width:40px;height: 40px;text-align: center;border: 1px solid #333333;font-size: 24px;position: relative;left: 8px;background-color: #FFFFFF;}
+
+.buy_cars{padding:0;}
+.join_car .btn-lg{padding:7px 10px 7px 10px;font-size: 14px;border: 1px solid transparent;border-radius: 0;margin-left: 20%;}
+.join_car .btn-default{color: #ffffff;background-color: #f39800;border-color: #f39800;}
+
+.buy_now .btn-lg{margin-bottom: 20px; padding:7px 20px 7px 20px;font-size: 14px;border: 1px solid transparent;border-radius: 0;margin: 0;}
+.buy_now .btn-default{color: #ffffff;background-color: #e60012;border-color: #e60012;}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.big_pic img{margin-top: 18px;border:1px solid #00aac8;margin-right: auto;margin-left: auto;}
+.small_pic{border: 1px solid #00aac8;margin: 30px 70px;background-color: #FFFFFF;width:80%;}	
+}
+
+
+
+

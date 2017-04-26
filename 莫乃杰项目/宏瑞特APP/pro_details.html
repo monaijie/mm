@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>产品详情</title>   
+</head>
+<body>
+	<ion-view class="bg prodetails">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">产品详情</h1>
+	</ion-header-bar>
+	<ion-content>
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<div class="title">
+			<a href="##"><img src="img/pro_categories/pic09.jpg" alt="图片无法加载"/></a>
+			<span>草莓果脯</span>
+			<p>￥<span>240.00</span><span>320.00</span></p>
+			<button type="button" ui-sref="confrim">立即购买</button>
+			<button type="button" ng-click="shopCart()">加入购物车</button>
+			<p><span>品 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牌</span><span>宏瑞特</span></p>
+			<p><span>产品规格</span><span>2.5-3.5kg/袋</span></p>
+			<p>图文详情</p>
+		</div>
+		<div class="Product">
+			<ul>
+				<li ng-repeat ='x in startArrs'><a href="###">
+					<img ng-src = "{{x.src}}" alt="图片无法加载"/>
+				</a></li>
+			</ul>
+		</div>
+		<ion-infinite-scroll on-infinite="loadMove()" ng-if="moveBool" distance = "0%">
+				
+		</ion-infinite-scroll>
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index1.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>	
+    <script type="text/javascript" src="js/shopCar.js" ></script>
+    <script type="text/javascript" src="js/productList.js" ></script>   
+</body>
+</html>

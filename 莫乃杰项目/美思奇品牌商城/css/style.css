@@ -1,0 +1,8 @@
+li{list-style:none;}
+a{text-decoration:none; cursor:pointer;}
+a:hover{text-decoration:none;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none;}
+label{cursor: pointer;}
+button{outline: none;}

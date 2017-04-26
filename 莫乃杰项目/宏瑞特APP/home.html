@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>首页</title>     
+</head>
+<body>
+	<ion-view class="bg home">
+		<ion-header-bar class="header">
+		<div class="sech">
+			<ul>
+				<li ui-sref="pro_categories">
+					<span>果脯<a href="##"  class="icon ion-ios-arrow-down"></a></span>					
+				</li>
+			</ul>			
+		</div>
+		<div class="title">
+			<button class="button ion-search button-light sizes" ui-sref="search">输入关键字</button>
+		</div>
+	</ion-header-bar>
+	<ion-content>
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<ion-slide-box class="home_banner" auto-play="true" does-continue="true"><!--banner图-->
+			<ion-slide>
+				<img src="img/home/banner1.jpg" alt="" width="100%">
+			</ion-slide>
+			<ion-slide>
+				<img src="img/home/banner2.jpg" alt="" width="100%">
+			</ion-slide>
+			<ion-slide>
+				<img src="img/home/banner3.jpg" alt="" width="100%">
+			</ion-slide>
+		</ion-slide-box>
+		<div class="index_pic">
+			<ul class="row row-wrap">
+				<li class="col col-33">
+					<div class="qgou">
+						<h3>抢购</h3>
+						<p>9时开抢倒计时：</p>
+					</div>
+					<div class="countdown">
+						<span id="timer"></span> :
+						<span id="timers"></span> :
+						<span id="tmer"></span> 
+					</div>
+				</li>
+				<li class="col col-33">
+					<div class="tgou">
+						<h3>团购</h3>
+						<p>全网最低价格</p>
+					</div>
+				</li>
+				<li class="col col-33">
+					<div class="mong">
+						<h3>早晚市</h3>
+						<p>时早市18时夜场</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="index_nav">
+			<ul class="row row-wrap">
+				<li class="col col-25">
+					<a href="###" ui-sref="proCategories">
+						<img  src="img/home/ioc01.png" alt="图片无法加载" />
+						<p>商品分类</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###" ui-sref="pro_list">
+						<img  src="img/home/ioc02.png" alt="图片无法加载" />
+						<p>商城热卖</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###">
+						<img  src="img/home/ioc03.png" alt="图片无法加载" />
+						<p>摇一摇</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###">
+						<img  src="img/home/ioc04.png" alt="图片无法加载" />
+						<p>物流咨询</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###">
+						<img  src="img/home/ioc05.png" alt="图片无法加载" />
+						<p>话费充值</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###">
+						<img  src="img/home/ioc06.png" alt="图片无法加载" />
+						<p>浏览历史</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###" ui-sref="pro_list">
+						<img  src="img/home/ioc07.png" alt="图片无法加载" />
+						<p>猜你喜欢</p>
+					</a>
+				</li>
+				<li class="col col-25">
+					<a href="###">
+						<img  src="img/home/ioc08.png" alt="图片无法加载" />
+						<p>意见反馈</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</ion-content>
+<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()" class="bgs">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>  
+    <script type="text/javascript" src="js/countdown.js" ></script>
+</body>
+</html>

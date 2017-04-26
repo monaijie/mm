@@ -1,0 +1,46 @@
+.nva .classify li a{font-family: "黑体";font-size: 18px;color: #fdfbfb;display: block;padding-top: 35px;padding-bottom: 10px;padding-left: 25px;padding-right: 30px;}
+.mg{width: 1200px;margin: auto;}
+.tisp{width: 478px;margin-left: 10px;margin-top: 50px;margin-bottom: 30px;}
+.tisp .pro_tips img{display: block;float: left;margin-right: 20px;}
+.tisp .pro_tips .text{padding: 30px;}
+.tisp .pro_tips .text p{font-family: "黑体";font-size: 14px;color: #5e5f60;margin-bottom: 10px;}
+
+.pics{width: 270px;margin-left: 135px;margin-top: -8px;}
+.pics p{font-family: "黑体";font-size: 12px;color: #5e5f60;margin-bottom: 8px;}
+.pics p img{margin-right: 5px;}
+
+.lugur{width: 570px;margin-top: 85px;margin-right: 25px;margin-bottom: 30px;}
+
+.picter{width: 570px;height: 76px;background-color: #e5e5e5;overflow: hidden;text-align: center;padding: 20px;}
+.picter ul{margin-bottom: 0;line-height: 76px;display: inline-block;height: 76px;}
+.picter ul li{cursor: pointer; width: 35px;height: 35px; float: left;margin: 0 3px;line-height: 76px;padding-top: 22px;background: url(../img/pau_detalis/xing.png) no-repeat center;}
+.picter ul li.on{background: url(../img/pau_detalis/reds.png) no-repeat center;}
+
+.top textarea{outline: none; padding: 0 8px;font-family: "黑体";font-size: 14px;color: #5e5f60;width: 570px;height: 320px;border: 1px solid #e5e5e5;resize: none;}
+.top span{width: 570px;height: 45px;display: inline-block;background-color: #e5e5e5;margin-top: -8px ;}
+.top input{width: 75px;height: 38px;background-color: red;font-family: "黑体";font-size: 18px;color: #FFFFFF;border: 1px solid #959595;text-align: center;outline: none;margin-left: 260px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

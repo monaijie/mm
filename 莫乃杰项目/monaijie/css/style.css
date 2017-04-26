@@ -1,0 +1,861 @@
+@-webkit-keyframes rotating{
+	0% {transform: rotate(0);}
+	100% {transform: rotate(369deg)}
+}
+@keyframes rotating{
+	0% {transform: rotate(0);}
+	100% {transform: rotate(369deg)}
+}
+
+@-webkit-keyframes start{
+	0%, 30%{opacity: 0;transform: translate(0,10px);}
+	60%{opacity: 1; transform: translate(0,0);}
+	100%{opacity: 0;transform: translate(0,-8px);}
+}
+@keyframes start{
+	0%, 30%{opacity: 0;transform: translate(0,10px);}
+	60%{opacity: 1; transform: translate(0,0);}
+	100%{opacity: 0;transform: translate(0,-8px);}
+}
+
+@-webkit-keyframes twiserInUp{
+	0%{
+		opacity: 0;
+		transform-origin: 100% 0;
+		transform: scale(0,0) rotate(360deg) translateY(100%);
+	}
+	30%{
+		transform-origin: 100% 0;
+		transform: scale(0,0) rotate(360deg) translateY(100%);
+	}
+	100%{
+		opacity: 1;
+    	transform-origin: 0 0;
+    	transform: scale(1,1) rotate(0) translateY(0);
+	}
+}
+@keyframes twiserInUp{
+	0%{
+		opacity: 0;
+		transform-origin: 100% 0;
+		transform: scale(0,0) rotate(360deg) translateY(100%);
+	}
+	30%{
+		transform-origin: 100% 0;
+		transform: scale(0,0) rotate(360deg) translateY(100%);
+	}
+	100%{
+		opacity: 1;
+    	transform-origin: 0 0;
+    	transform: scale(1,1) rotate(0) translateY(0);
+	}
+}
+@-webkit-keyframes puffIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(2, 2, .3);
+    transform: scale3d(2, 2, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes puffIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(2, 2, .3);
+    transform: scale3d(2, 2, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type{
+    from { width: 0;}
+}
+
+@keyframes type{
+    from { width: 0;}
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: "黑体", Arial;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+p{margin: 0;}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+}
+.swiper_content{
+	width: 100%;
+	height: 100%;
+}
+.audio_btn{
+	position: absolute;
+	z-index: 1000;
+	width: 35px;
+	height: 35px;
+	right: 20px;
+	top: 25px;
+	background: url(../img/normalmusic.svg) no-repeat;
+	background-size: contain;
+}
+.rotate{
+	-webkit-animation: rotating 1.2s linear infinite;
+	animation: rotating 1.2s linear infinite;
+}
+.audio_btn audio{
+	visibility: hidden;
+}
+.arrow{
+	position: absolute;
+	width: 24px;
+	height: 14px;
+	left: 50%;
+	margin-left: -12px;
+	z-index: 150;
+	bottom: 30px;
+}
+.pre_wrap{
+	width: 24px;
+	height: 14px;
+	position: relative;
+	animation: start 1.5s infinite ease-in-out;
+}
+.box1, .box2{
+	height: 15px;
+	width: 11px;
+	position: absolute;
+	top: -5px;
+	overflow: hidden;
+}
+.box2{
+	left: 10px;
+}
+.pre1, .pre2{
+	width: 14px;
+	height: 5px;
+	position: absolute;
+	box-shadow: 1px -1px 1px #262626;
+	top: 5px;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+}
+.pre1{
+	transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+}
+.pre2{
+	left: -4px;
+	transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+}
+.swiper_content img{
+	width: 100%;
+	display: block;
+}
+.logo{
+	position: absolute;
+	top: 10%;
+	width: 60%;
+	left: 50%;
+	margin-left: -32%;
+	padding: 5px 10px;
+  	-webkit-transform-origin: center 0;
+ 	transform-origin: center 0;
+	animation: bounceInDown 2s ease .25s 1 both;
+	
+}
+.logon{animation: bounceIn 2s ease 3s infinite both;}
+.title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 19%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	animation: bounceInLeft 2s ease 1.25s 1 both;
+}
+.recruit{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	height: 172px;
+}
+.content{
+	position: relative;
+	width: 168px;
+	height: 172px;
+	left: 50%;
+	margin-left: -84px;
+}
+.polygon{
+	position: absolute;
+	width: 168px;
+	height: 172px;
+	left: 50%;
+	margin-left: -84px;
+}
+.animated.bounceIn{
+	animation: bounceIn 2s ease 3s infinite both;
+}
+.slash{
+	position: absolute;
+	width: 105px;
+	top: 25%;
+	left: 50%;
+	margin-left: -55px;
+	animation: twiserInUp 2s ease 2.25s 1 both;
+}
+.fonts{
+	width: 50px;
+}
+.Firstfont{
+	position: absolute;
+	left: 25%;
+	top: 28%;
+	animation: flipInY 2s ease 4.25s 1 both;
+}
+.Secondfont{
+	position: absolute;
+	right: 20%;
+	bottom: 20%;
+	animation: twiserInUp 1.5s ease 3.25s 1 both;
+}
+.slogan{
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	animation: bounceInLeft 2s ease 4s 1 both;
+}
+.article_title{
+	position: absolute;
+	top: 16%;
+	width: 234px;
+	margin-left: -112px;
+	left: 57%;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.article_title .type{
+	width: 234px;
+	display: block;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 0.5s steps(50, end) 1;
+ 	animation: type 0.5s steps(50, end) 1;
+}
+.article_text{
+	color: #000;
+	position: absolute;
+	top: 20%;
+	font-size: 12px;
+	text-align: left;
+	padding: 20% 8%;
+	background: url(../img/bg.png) no-repeat center;
+	animation: flipInY 2s ease 1s 1 both;
+	    background-size: 90%;
+}
+.article_text p{
+	text-indent: 2em;
+	margin: 10px 0;
+}
+
+.page3{
+	position: absolute;
+	top: 32%;
+	width: 100%;
+	height: 50%;
+}
+.page3_content{
+	position: relative;
+	width: 90%;
+	height: 100%;
+	padding: 0 5%;
+}
+.page3_content .page3_bg{
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	left: 50%;
+	margin-left: -45%;
+	animation: zoomIn 2s ease .25s 1 both;
+}
+.page3_content .page3_bg img{
+	width: 88%;
+	height: 65%;
+	margin: 0 auto;
+	position: absolute;
+	top: -32%;
+	left: 6%;
+}
+.page3_content .recruit_msg{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.page3_content .recruit_bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: zoomIn 2s ease 2s 1 both;
+}
+.page3_content .recruit_bg > div{
+	position: absolute;
+	width: 23%;
+	height: 23%;
+}
+.page3_content .recruit_bg .ui_bg{
+	top: 65%;
+	left: 6%;
+}
+.page3_content .recruit_bg .web_bg{
+	top:47%;
+	right: 50%;
+}
+.page3_content .recruit_bg .php_bg{
+	top:67%;
+	left: 74%;
+}
+.page3_content .recruit_bg .java_bg{
+	top:57%;
+	right: 27%;
+}
+.page3_content .recruit_bg > div img{
+	width: 100%;	
+	margin: 0 auto;
+}
+.page3_content .recruit_txt{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	animation: zoomIn 2s ease 1s 1 both;
+}
+.page3_content .recruit_txt > div{
+	position: absolute;
+	width: 23%;
+	height: 23%;
+	text-align: center;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	padding: 7% 0;
+	line-height: 28px;
+}
+.page3_content .recruit_txt .ui_txt{
+	bottom: -38%;
+	left: 6%;
+}
+.page3_content .recruit_txt .web_txt{
+	bottom: -38%;
+	right: 50%;
+}
+.page3_content .recruit_txt .php_txt{
+	bottom: -38%;
+	left: 50%;
+}
+.page3_content .recruit_txt .java_txt{
+	bottom: -38%;
+	right: 6%;
+}
+.page3_content .recruit_msg .middle_txt{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	box-sizing: border-box;
+	position: absolute;
+	top: -30%
+}
+.page3_content .recruit_msg .middle_txt p.our{
+text-align: left;
+margin-left: 20%;	
+}
+.page3_content .recruit_msg .middle_txt p.me{
+text-align: left;
+margin-left: 20%;	
+}
+.page3_content .recruit_msg .middle_txt span.congd{position: absolute;top: -135%;font-size: 35px;font-weight: bold;}
+.page3_content .recruit_msg .middle_txt p{
+	margin: 0;
+	font-size: 14px;
+}
+.page3_content .recruit_msg .middle_txt span{
+	font-weight: bold;
+	font-size: 20px;
+}	
+.page3_content .recruit_msg .middle_txt span.nige{font-size: 30px;}
+.page3_content .recruit_msg .middle_txt p:nth-child(1),.page3_content .recruit_msg .middle_txt p:nth-child(2){
+	animation: flipInY 2s ease 3s 1 both;
+}	
+.page3_content .recruit_msg .middle_txt p:nth-child(3){
+	text-align: left;
+	margin-left: 10%;
+	font-size: 24px;
+	animation: flipInY 2s ease 4s 1 both;
+}
+.page3_content .recruit_msg .middle_txt p:nth-child(3) i.cks{
+	margin-top: 4%;
+    float: left;
+    font-size: 25px;
+    font-style: normal;
+    color: #879dc6;
+}	
+
+.page3_content .recruit_msg .middle_txt p:nth-child(3) span{
+	font-size: 60px;
+	font-weight: bold;
+	   left: 3%;
+    position: relative;
+    animation: bounceIn 2s ease 3s infinite both;
+}
+.page3_content .recruit_msg .middle_txt p:nth-child(3) em img{
+	width: 10%;
+    position: absolute;
+    left: 60%;
+    top: 13%;
+}
+.page3_content .recruit_msg .middle_txt p:nth-child(4){
+	animation: flipInY 2s ease 4.5s 1 both;
+}
+.page3_content .recruit_msg .middle_txt p:nth-child(4) img{
+	width: 52%;
+    text-align: -webkit-center;
+    display: -webkit-inline-box;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.swiper_content .Introduction{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	
+	box-sizing: border-box;
+}
+.swiper_content .leftText p{
+	line-height:28px;
+	color: #000; 
+	width: 53%;
+	position: absolute;
+	top: 26%;
+	left: 24%;
+	 -webkit-animation: type 0.5s steps(50, end) 1;
+ 	animation: type 0.5s steps(50, end) 1;
+}
+.swiper_content .leftText{
+	width: 100%;
+	height: 100%;	 
+	background: url(../img/ddd.png) no-repeat center; 
+	background-size: 70%;
+}
+.swiper_content .ui .leftText{
+	-webkit-animation: zoomIn 2s ease .5s 1 both;
+	animation: zoomIn 2s ease .5s 1 both;
+}
+
+.swiper_content .Btn{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 25%;
+	margin-left: -85px;
+}
+.swiper_content .BtnBg{
+	position: absolute;
+	bottom: 0;
+}
+.swiper_content .BtnBg{
+	-webkit-animation: zoomIn 2s ease 2s 1 both;
+	animation: zoomIn 2s ease 2s 1 both;
+}
+.swiper_content .BtnTxt{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 35px;
+	font-weight: bold;
+	top: 10%;
+}
+.swiper_content .BtnTxt{
+	-webkit-animation: zoomIn 2s ease 3s 1 both;
+	animation: zoomIn 2s ease 3s 1 both;
+}
+.swiper_content .web .leftText{
+	-webkit-animation: fadeInLeft 2s ease .5s 1 both;
+	animation: fadeInLeft 2s ease .5s 1 both;
+}
+.swiper_content .web .RightText{
+	-webkit-animation: fadeInRight 2s ease .5s 1 both;
+	animation: fadeInRight 2s ease .5s 1 both;
+}
+.swiper_content .java .leftText{
+	-webkit-animation: bounceIn 2s ease .5s 1 both;
+	animation: bounceIn 2s ease .5s 1 both;
+}
+.swiper_content .java .RightText{
+	-webkit-animation: bounceIn 2s ease 1.25s 1 both;
+	animation: bounceIn 2s ease 1.25s 1 both;
+}
+.swiper_content .php .leftText{
+	-webkit-animation: fadeInLeft 2s ease .5s 1 both;
+	animation: fadeInLeft 2s ease .5s 1 both;
+}
+.swiper_content .php .RightText{
+	-webkit-animation: fadeInLeft 2s ease 1.5s 1 both;
+	animation: fadeInLeft 2s ease 1.5s 1 both;
+}
+.swiper_content .meet{
+	margin-top: 15%;
+	padding: 0 16%;
+	width: 100%;
+	color: #000;
+}
+.swiper_content .meet .meetTxt{
+	margin-top: 15px;
+	width: 100%;
+}
+.swiper_content .meet .meetTxt p{
+	width: 100%;
+	display: block;
+    white-space:nowrap;
+    overflow:hidden;
+	margin-bottom: 15px;
+}
+.swiper_content .meet .meetTxt p:nth-child(1){
+	font-size: 16px;
+}
+.swiper_content .meet .meetTxt p:nth-child(2){
+	font-size: 18px;
+}
+.swiper_content .meet .meetTxt p:nth-child(3){
+	font-size: 22px;
+}
+.swiper_content .meet .meetTxt:nth-child(1) p:nth-child(1){
+    -webkit-animation: type 1.5s steps(30, end) .5s 1 both;
+    animation: type 1.5s steps(30, end) .5s 1 both;
+}
+.swiper_content .meet .meetTxt:nth-child(1) p:nth-child(2){
+    -webkit-animation: type 1.5s steps(30, end) 1s 1 both;
+    animation: type 1.5s steps(30, end) 1s 1 both;
+}
+.swiper_content .meet .meetTxt:nth-child(1) p:nth-child(3){
+    -webkit-animation: type 1.5s steps(30, end) 1.75s 1 both;
+    animation: type 1.5s steps(30, end) 1.75s 1 both;
+}
+.swiper_content .meet .meetTxt:nth-child(2) p:nth-child(1){
+    -webkit-animation: type 1.5s steps(30, end) 2.5s 1 both;
+    animation: type 1.5s steps(30, end) 2.5s 1 both;
+}
+.swiper_content .meet .meetTxt:nth-child(2) p:nth-child(2){
+    -webkit-animation: type 1.5s steps(30, end) 3s 1 both;
+    animation: type 1.5s steps(30, end) 3s 1 both;
+}
+.swiper_content .meet .meetTxt:nth-child(2) p:nth-child(3){
+    -webkit-animation: type 1.5s steps(30, end) 3.5s 1 both;
+    animation: type 1.5s steps(30, end) 3.5s 1 both;
+}
+.swiper_content .meetFoot{
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+}
+.swiper_content .meetFoot p{
+	width: 158px;	
+	margin: 0 auto;
+	padding: 5% 0;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.swiper_content .meetFoot span{
+	display: block;
+	width: 158px;	
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 1s steps(30, end) 4s 1 both;
+    animation: type 1s steps(30, end) 4s 1 both;
+}
+.swiper_content .meetFoot .imgRight{
+	-webkit-animation: fadeInRight 2s ease 4s 1 both;
+	animation: fadeInRight 2s ease 4s 1 both;
+}
+.swiper_content .meetFoot .imgLeft{
+	-webkit-animation: fadeInLeft: ; 2s ease 4s 1 both;
+	animation: fadeInLeft 2s ease 4s 1 both;
+}
+.Add{
+	width: 100%;
+	margin-top: 10%;
+}
+.Add .Add_logo{
+	width: 55%;
+	margin: 0 auto;	
+	padding: 5px 10px;
+	-webkit-animation: zoomIn 2s ease .5s 1 both;
+	animation: zoomIn 2s ease .5s 1 both;
+}
+.Add .Add_txt{
+	margin: 6% 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+	-webkit-animation: puffIn 2s ease .5s 1 both;
+	animation: puffIn 2s ease .5s 1 both;
+}
+.Add .Add_txt span{
+	font-size: 22px;
+}
+.Add form{
+	margin-top: 10%;
+}
+.Add label{
+	display: block;
+	background: #FFFFFF;
+	margin: 5% 12%;
+	padding: 8px 15px;
+	color: #666666;
+	font-size: 14px;
+	-webkit-animation: bounceInLeft 2s ease 1.5s 1 both;
+	animation: bounceInLeft 2s ease 1.5s 1 both;
+}
+.Add input{
+	width: 60%;
+	border: none;
+	background: none;
+	outline: none;
+}
+.Add .Add_btn{
+	position: relative;
+	width: 100%;
+	height: 44px;
+}
+.Add .Button{
+	position: absolute;
+	display: block;
+	width: 76%;
+	border: none;
+	background: #ff0000;
+	outline: none;
+	margin: 0 auto;
+	padding: 22px 0;
+	border-radius: 10px;
+	left: 50%;
+	margin-left: -38%;
+	-webkit-animation: bounceIn 2s ease 3s 1 both;
+	animation: bounceIn 2s ease 3s 1 both;
+	animation: bounceIn 2s ease 3s infinite both;
+}
+.Add .buttonTxt{
+	position: absolute;
+	top: 25%;
+	font-size: 20px;
+	left: 50%;
+	margin-left: -36px;
+	color: #FFFFFF;
+	-webkit-animation: bounceInLeft 2s ease 2.5s 1 both;
+	animation: bounceInLeft 2s ease 2.5s 1 both;
+}
+.swiper_content .QRcode_logo{
+	width: 40%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	padding: 5px 10px;
+	margin-top: 8%;
+	-webkit-animation: bounceInLeft 2s ease .25s 1 both;
+	animation: bounceInLeft 2s ease .25s 1 both;
+}
+.QRcode .Add_logo{
+	width: 55%;
+	margin: 0 auto;	
+	padding: 5px 10px;
+	-webkit-animation: zoomIn 2s ease .5s 1 both;
+	animation: zoomIn 2s ease .5s 1 both;
+}
+.QRcode .Add_logo img{width: 90%;}
+.QRcode{
+	width: 100%;
+	margin-top: 15%;
+}
+
+.QRcode .QRcode_txt{
+	margin: 5% 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	-webkit-animation: flipInY 2s ease 1s 1 both;
+	animation: flipInY 2s ease 1s 1 both;
+}
+.QRcode .QR{
+	margin: 15% 20%;
+}
+.QRcode .QR .Txtbox{	
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 10px 0;
+	margin-top: 20%;
+	-webkit-animation: flipInY 2s ease 2s 1 both;
+	animation: flipInY 2s ease 2s 1 both;
+}
+.QRcode .QR .QR_img{
+	-webkit-animation: flipInY 2s ease 2s 1 both;
+	animation: flipInY 2s ease 2s 1 both;
+	animation: bounceIn 2s ease 3s infinite both;
+}
+.End{
+	width: 100%;
+	margin-top: 40%;
+	animation: zoomInDown 2s ease .5s 1 both;
+}
+.End .YYD_logo{
+	width: 50%;
+	margin: 0 auto;
+	animation: tada 2s ease 2.5s 1 both;
+}
+.End .YYD_txt{
+	width: 60%;
+	margin: 10% auto 0;
+}
+
+
+
+@media only screen and (min-width: 360px){
+	.article_text{
+		line-height: 19px;
+	}
+	.swiper_content .leftText{
+		line-height: 20px;
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width: 400px){
+	.article_text{
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.article_text p{
+		margin: 6px 0;
+	}
+	.page3_content .recruit_txt > div{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.page3_content .recruit_msg .middle_txt{
+		padding: 30% 0;
+	}
+	.page3_content .recruit_msg .middle_txt span{
+		font-size: 24px;
+	}
+	.page3_content .recruit_msg .middle_txt p{
+		font-size: 18px;
+	}
+	.swiper_content .leftText{
+		line-height: 21px;
+		font-size: 14px;
+	}
+	.swiper_content .ui .leftText{
+		line-height: 23px;
+	}
+	.swiper_content .meetFoot p{
+		width: 190px;
+		font-size: 16px;
+	}
+	.swiper_content .meetFoot span{
+		width: 190px;
+	}
+	.Add .Add_txt{
+		font-size: 18px;
+	}
+	.Add .Add_txt span{
+		font-size: 24px;
+	}
+	.QRcode .QRcode_txt{
+		font-size: 22px;
+	}
+}
+@media only screen and (min-width: 414px){
+	.page3_content .recruit_msg .middle_txt{
+		padding: 34% 0;
+	}
+	.swiper_content .leftText{
+		line-height: 23px;
+		font-size: 18px;
+	}
+	.swiper_content .ui .leftText{
+		line-height: 26px;
+	}
+}
+@media only screen and (min-width: 435px){
+	.swiper_content .leftText{
+		line-height: 26px;
+		font-size: 18px;
+	}
+	.swiper_content .php .leftText{
+		line-height: 23px;
+	}
+	.swiper_content .Introduction{
+		padding-top: 3%;
+	}
+}
+@media only screen and (min-width: 768px){
+	.title{
+		font-size: 46px;
+	}
+	.slogan{
+		font-size: 24px;
+	}
+	.article_title{
+		width: 420px;
+		margin-left: -200px;
+		top: 32%;
+		font-size: 30px;
+	}
+	.article_title .type{
+		width: 420px;
+	}
+	.article_text{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.page3_content .recruit_txt > div{
+		font-size: 30px;
+	}
+	.page3_content .recruit_msg .middle_txt{
+		padding: 24%;
+	}
+	.page3_content .recruit_msg .middle_txt p{
+		font-size: 30px;
+	}
+	.page3_content .recruit_msg .middle_txt span{
+		font-size: 38px;
+	}
+	.QRcode .QRcode_txt{
+		font-size: 44px;
+	}
+}

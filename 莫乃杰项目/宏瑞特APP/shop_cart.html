@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>我的购物车</title>
+</head>
+<body >
+	<ion-view class="bg shopcart">
+		<ion-header-bar class="header">
+			<a href="##" class="icon ion-ios-arrow-left" ng-click = "backs()"></a>
+			<h1 ng-click = "backs()">我的购物车</h1>
+	</ion-header-bar>
+	<ion-content>
+		<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="下拉刷新。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载成功...">
+				
+		</ion-refresher>
+		<div class="title">
+			<p>首次购买满39包邮</p>
+		</div>
+		<div class="pro_list">
+			<ul>
+				<li ng-repeat= 'x in produtes track by $index '>
+					<div class="pro_lists">
+						<img ng-src="{{x.src}}" alt="图片无法加载" ui-sref="details"/>
+						<div class="mm">
+							<p  ui-sref="details">{{x.standard}}</p>
+							<p  ui-sref="details">{{x.name}}</p>
+							<span><em>{{x.price | currency:'￥'}}</em><em>{{x.sold | currency:'￥'}}</em></span>
+						</div>
+						<div class="ckes">
+						<span>
+							<i ng-click="miuns($index)">-</i>
+							<input type="text" ng-model="x.number" ng-blur="blurText(x.number,$index)"/>
+							<i ng-click="add($index)">+</i>
+							</span>
+							<span ng-click = "remove($index)">删除</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="dangs">
+			<p>运费<span>免运费</span></p>
+			<p>积分抵扣:<span>无可用积分></span></p>
+			<p>使用优惠券:<span>-{{initVal.ship | currency:"￥" }}</span></p>
+			<p>小计:<span>{{initVal.total | currency:"￥" }}</span></p>
+		</div>
+		<div class="tetle">
+			<span>合计:{{initVal.sum | currency:"￥" }}</span>
+			<button type="button" ui-sref="pay">结算 29:59</button>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="foor-view">
+		<ul>
+			<li ng-click="home()">
+				<div>
+					<!--<span></span>-->
+					<img src="img/home/index.png"/>
+					<p>主页</p>
+				</div>
+			</li>
+			<li ng-click="pro_list()">
+				<div>
+					<img src="img/home/icon1.png"/>
+					<p>商品</p>
+				</div>
+			</li>
+			<li ng-click="users()">
+				<div>
+					<img src="img/home/icon2.png"/>
+					<p>会员</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="img/home/sz1.png"/>
+					<p>设置</p>
+				</div>
+			</li>
+		</ul>
+	
+	</ion-footer-bar>
+	</ion-view>
+    <script type="text/javascript" src="js/shopCar.js" ></script>
+    
+</body>
+</html>

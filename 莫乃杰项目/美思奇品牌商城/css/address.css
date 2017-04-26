@@ -1,0 +1,115 @@
+.bg{background: #99dde9;width: 100%;}
+.bg p{float: left;font-family: "微软雅黑" ;font-size: 20px;color: #0c0b0b;margin-bottom: 0;line-height: 33px;}
+.bg span {font-family: "微软雅黑" ;font-size: 16px;color: #0000000;padding-left: 5px;}
+
+.navs{background: #000000;width: 100%;margin-top: 37px;overflow: hidden;clear: both;}
+.navs .titles li{float: left;padding-right: 70px;height: 50px;}
+.navs .titles li a{font-family: "微软雅黑" ;font-size: 20px;color: #ffffff;line-height: 40px;padding: 0 10px 10px 10px;}
+.navs .titles li a:hover{border-bottom:6px solid #00aac8;}
+.navs .titles .no{border-bottom:6px solid #00aac8;}
+
+.address_bg{background: url(../img/address/pic02.jpg) no-repeat center;width: 100%;padding-bottom: 30px;}
+.navx{margin-top:20px;width: 95%;margin-left: 3%;}
+.moble_phone{background-color: #66696a;padding: 16px 0 5px 0;}
+.moble_phone li{font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;}
+
+.message{background-color: #59c2d4;padding: 30px 0 15px 0;}
+.message li{font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;}
+
+.add{margin-top: 10px;margin-left: 3%;}
+.add p{font-family: "微软雅黑";font-size: 16px;color: #292929;}
+.add_from{background-color: #59c2d4;padding: 16px 0 5px 0;}
+
+.select {margin-right: 2%;border: 1px solid #333;height: 30px;}
+.form-group input{border: 1px solid #000;height: 35px;line-height: 35px;}
+.form-group textarea{border: 1px solid #000;height:95px;resize: none;}
+.form-group label{font-family: "微软雅黑";font-size: 18PX;color: #FFFFFF;font-weight: normal;}
+.botton_bg .btn-default{background-color: #000000;border-color: #000000;color: #FFFFFF;}
+.botton_bg button{height: 25px;}
+.botton_bg .btn{padding: 0 23px;}
+.form-group .on{font-family: "微软雅黑";font-size: 12PX;color: #FFFFFF;font-weight: normal;}
+.form-group .checkbox label{padding-left: 15px;padding-top: 3px}
+.form-group .checkbox input{height: 20px;}
+
+.selcebox .checkbox > .on > input{visibility: hidden;}
+.selcebox .checkbox > label{background: url(../img/address/chek.png) no-repeat left center;}
+.selcebox .checkbox >label.no{background: url(../img/address/checked.png) no-repeat left center;}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+.navx{margin-top:20px;width: 95%;margin-left: 3%;}
+.moble_phone{background-color: #66696a;padding: 16px 12px 5px 0;}
+.moble_phone li{font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;}	
+.message{background-color: #59c2d4;padding: 30px 10px 15px 0;}
+
+.add{margin-top: 10px;margin-left: 3%;}
+.add p{font-family: "微软雅黑";font-size: 16px;color: #292929;}
+.add_from{background-color: #59c2d4;padding: 16px 0 5px 0;}
+
+.select {margin-right: 2%;border: 1px solid #333;height: 30px;font-size: 12px;}
+.form-group input{border: 1px solid #000;height: 35px;line-height: 35px;}
+.form-group textarea{border: 1px solid #000;height:95px;}
+.form-group label{font-family: "微软雅黑";font-size: 16PX;color: #FFFFFF;font-weight: normal;}
+.botton_bg{margin-left: 13%;}
+.botton_bg .btn-default{background-color: #000000;border-color: #000000;color: #FFFFFF; }
+.botton_bg button{height: 25px;}
+.botton_bg .btn{padding: 0 23px;}
+.form-group .on{font-family: "微软雅黑";font-size: 12PX;color: #FFFFFF;font-weight: normal;}
+.form-group .checkbox label{padding-left: 20px;padding-top: 5px}
+.form-group .checkbox input{height: 20px;}
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.bg{background: #99dde9;width: 100%;}
+.bg p{float: left;font-family: "微软雅黑" ;font-size: 16px;color: #0c0b0b;margin-bottom: 0;line-height: 33px;}
+.bg span {font-family: "微软雅黑" ;font-size: 14px;color: #0000000;padding-left: 5px;}
+
+.navs{background: #000000;width: 100%;margin-top: 37px;overflow: hidden;clear: both;}
+.navs .titles li{float: left;padding-right: 10px;height: 30px;}
+.navs .titles li a{font-family: "微软雅黑" ;font-size: 12px;color: #ffffff;line-height: 20px;padding: 0 ;}
+.navs .titles li a:hover{border-bottom:6px solid #00aac8;}
+.nanavsv1 .titles .no{border-bottom:6px solid #00aac8;}
+
+.address_bg{background: url(../img/address/pic02.jpg) no-repeat center;width: 100%;padding-bottom: 30px;}
+.navx{margin-top:20px;width: 100%;margin-left: 0;}
+.moble_phone{background-color: #66696a;padding: 16px 0 5px 0;}
+.moble_phone li{font-family: "微软雅黑";font-size: 12px;color: #FFFFFF;}
+.moble_phone .col-xs-2,.col-xs-3 {margin: 0;padding: 0;text-align: left;}
+
+
+.message{background-color: #59c2d4;padding: 30px 0 15px 0;}
+.message li{font-family: "微软雅黑";font-size: 12px;color: #FFFFFF;word-wrap: break-word;}
+
+.add{margin-top: 10px;margin-left: 3%;}
+.add p{font-family: "微软雅黑";font-size: 12px;color: #292929;}
+.add_from{background-color: #59c2d4;padding: 16px 0 5px 0;}
+
+.select {margin-right: 1%;border: 1px solid #333;height: 30px;width: 30%;}
+.optioon{margin-left: 10%;}
+.form-group input{border: 1px solid #000;height: 35px;line-height: 35px;margin-left: 10%;margin-bottom: 5%;}
+.form-group textarea{border: 1px solid #000;height:80px;margin-left: 10%;width: 83%;}
+.form-group label{font-family: "微软雅黑";font-size: 14PX;color: #FFFFFF;font-weight: normal;text-align: left;margin-left: 5%;}
+.botton_bg .btn-default{background-color: #000000;border-color: #000000;color: #FFFFFF;}
+.botton_bg button{height: 25px;}
+.botton_bg .btn{padding: 0 23px;}
+.form-group .on{font-family: "微软雅黑";font-size: 12PX;color: #FFFFFF;font-weight: normal;}
+.form-group .checkbox label{padding-left: 20px;padding-top: 5px}
+.form-group .checkbox input{height: 20px;}	
+.center .col-xs-12{text-align: -webkit-center;}
+.center .col-xs-12 label{margin-left: 0;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
