@@ -1,0 +1,29 @@
+一、从服务端获取文件:1.项目:baoear2017024
+模块:nodejs
+您可以在terminal的任意目录执行以下命令clone git仓库gi 
+
+#!/usr/bin/env bash
+mkdir baoear2017024
+cd baoear2017024
+mkdir nodejs
+cd nodejs
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/baoear2017024/nodejs/nodejs-src.git
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/baoear2017024/nodejs/nodejs-dist.git
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/baoear2017024/baoear2017024-docs.git
+cd ../../
+
+注：cd打开目录的子目录
+二、进到项目的根目录，通过命令把最新端资料啦下来：git pull origin master
+
+三、检测是否有改动没进行提交：git status
+
+四、若没有提交端话，使用：git add * 和 git commit -m 'fix'进行保存到本地
+
+五、git config 的用法：使用git config --global user.email "17802303417@qq.com"来说名是谁提交的，如何使用git add * 和 	git commit -m 'fix'进行保存；
+
+然后使用 git log查看是否有提交
+
+六：在项目端根目录下使用命令项目提交：git push origin master
+
+
+

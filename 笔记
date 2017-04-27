@@ -1,0 +1,34 @@
+命令行打开：
+
+新建文件：mkdir project
+
+安装git：sudo apt install git
+
+安装  npm：sudo apt install npm
+
+安装nodejs：先安装npm 在输入sudo apt install nodejs-legacy，前
+
+提下载nodejs ，安装完后输入node -v检测
+
+获取git 的公私密钥：1.ssh-keygen -t rsa -p 2.ssh-keygen -t rsa  3.ls  4.ls -a  5.cd .ssh/ 6.ls
+
+公钥 vi id_rsa.pub   密钥 vi id_rsa   在本页打开：cat id_rsa
+
+退 出：先按一下esc 输入 ：q 即可退出换页
+
+安装express:1. sudo npm install express -g  2.sudo npm install express-generator -g
+            3. sudo npm install cnpm -g
+
+创建一个新端文件夹：mkdir 文件名
+
+返回上一级菜单：cd ../
+
+克隆文件：git  clone  +地址
+退出到编辑转钛：按 esc + shift + :
+
+先打开webstorm ，把bin文件入，输入：
+打开nodejs ： node www
+
+查询本地地址：ifconfig
+安装依赖：npm install 
+
