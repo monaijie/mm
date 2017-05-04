@@ -1,12 +1,13 @@
-                         认配置-Eclipse的常用快捷键对照表
+                         默认配置-Eclipse的常用快捷键对照表
 
 查找/代替
 
 Webstorm快捷键                	说明
 ctrl+shift+N		通过文件名快速查找工程内的文件（必记）
 ctrl+shift+alt+N	通过一个字符快速查找位置（必记）
-ctrl+F	               在文件内快速查找代码
-F3	        	查找下一个
+ctrl+F	                在文件内快速查找代码
+F3                      查找下一个
+F6                 	重命名文件夹       
 shift+F3		查找上一个
 ctrl+R		        文件内代码替换
 ctrl+shift+R	 	指定目录内代码批量替换

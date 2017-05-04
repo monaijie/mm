@@ -19,10 +19,11 @@
   2.2 输入 ls
   2.3 输入  cd sites-enabled
   2.4 输入 ls 
-  2.5 输入  vim default
+  2.7 输入 sudo vim default(输入sudo才可以保存)
+ 2.7 打开nginx.conf 把9001端口复制进去保存
   2.6 输入 service nginx restart 
-  2.7 输入 sudo vim default
-  2.7 打开nginx.conf 把端口复制进去保存
+
+ 
   2.9更改项目的指向路径
 
 
