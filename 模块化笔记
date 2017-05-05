@@ -1,0 +1,16 @@
+ 规范化命名：
+
+1.lib 代表库
+2. view 代表自己的页面视图
+3. builde 环境
+4. compornktre 组建
+5.comfig 全局变量
+
+
+
+
+如何打开任务管理器：
+
+1.ctrl + alt+t 打开终端
+2.输入 top 打开总端
+3.杀死进程：kill -9 +pid(指的是进程的id)
