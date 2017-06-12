@@ -1,0 +1,13 @@
+
+中信的移动端项目：
+#!/usr/bin/env bash
+mkdir tencent-m20170510
+cd tencent-m20170510
+mkdir nodejs
+cd nodejs
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/tencent-m20170510/nodejs/nodejs-src.git
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/tencent-m20170510/nodejs/nodejs-dist.git
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/tencent-m20170510/tencent-m20170510-docs.git
+cd ../../
+
+

@@ -1,0 +1,6 @@
+每天工作前先更新源码：
+1.打开源码根目录，输入 git pull origin master 更新
+
+2.sh build.sh 进行提交
+
+3.使用git log --graph 检查提交状态

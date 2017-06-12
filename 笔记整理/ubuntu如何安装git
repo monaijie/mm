@@ -1,0 +1,9 @@
+Debian/Ubuntu Git 安装命令为：
+
+$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+  libz-dev libssl-dev
+
+$ apt-get install git-core
+
+$ git --version
+git version 1.8.1.2
