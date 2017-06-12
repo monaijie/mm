@@ -1,0 +1,11 @@
+
+腾讯项目：
+#!/usr/bin/env bash
+mkdir citic-m20170510
+cd citic-m20170510
+mkdir nodejs
+cd nodejs
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/citic-m20170510/nodejs/nodejs-src.git
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/citic-m20170510/nodejs/nodejs-dist.git
+git clone ssh://git@120.24.217.115:/mnt/opt/git/devopsProjects/citic-m20170510/citic-m20170510-docs.git
+cd ../../

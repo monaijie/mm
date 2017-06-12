@@ -1,0 +1,7 @@
+#使用淘宝源
+cd ~/
+vi .npmrc
+#添加 registry=https://registry.npm.taobao.org/
+:wq
+
+使用淘宝源是为了加速安装依赖
